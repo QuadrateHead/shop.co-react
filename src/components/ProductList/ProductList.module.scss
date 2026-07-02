@@ -1,0 +1,40 @@
+@use "/src/styles/scss/tools/function" as *;
+@use "/src/styles/scss/tools/mixins" as *;
+@use "/src/styles/scss/base/typography" as *;
+.block{
+   @include coloumn(55);
+   align-items: center;
+   @media (max-width: 768px){
+      gap: toRem(32);
+   }
+}
+.heading{
+
+}
+.grid{
+   /*width: 100%;
+   display: grid;
+   gap: toRem(20);
+   grid-template-columns: repeat(auto-fit, minmax(198px, 300px));
+   overflow-y: hidden;*/
+   width: 100%;
+   display: flex;
+   gap: toRem(20);
+   overflow-y: hidden;
+   scrollbar-width: none;
+   scroll-behavior: smooth;
+}
+.btn{
+   @include center;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   border-radius: toRem(62);
+   padding: toRem(15) toRem(80);
+
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: toRem(16);
+   color: #000;
+   @media (max-width: 768px){
+      width: 100%;
+   }
+}

@@ -1,0 +1,16 @@
+//!Tools//
+@use "/src/styles/scss/tools/function" as *;
+@use "/src/styles/scss/tools/abstracts" as *;
+@use "/src/styles/scss/tools/mixins" as *;
+//!Base//
+@use "/src/styles/scss/base/null" as *;
+@use "/src/styles/scss/base/typography" as *;
+//!Elements//
+@use "/src/styles/scss/elemnts/buttons" as *;
+//!Pages//
+body {
+   background: #fff;
+}
+//!Layouts//
+
+//!Dahboard//

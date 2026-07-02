@@ -1,0 +1,97 @@
+@use "/src/styles/scss/tools/function" as *;
+@use "/src/styles/scss/tools/mixins" as *;
+@use "/src/styles/scss/base/typography" as *;
+.card{
+   @include coloumn(16);
+   flex: 0 0 auto;
+   min-width: 250px;
+   cursor: pointer;
+}
+.imageContainer{
+   aspect-ratio: 1 / 1;
+   width: 100%;
+   border-radius: 20px;
+   
+}
+.image{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+   transition: transform 0.1s linear 0s;
+   &.right:hover{
+      transform: scale(1.1) rotate(5deg);
+      transition: transform 0.1s ease-in-out 0s;
+   }
+   &.left:hover{
+      transform: scale(1.1) rotate(-5deg);
+      transition: transform 0.1s ease-in-out 0s;
+   }
+}
+
+
+.textbox{
+   @include coloumn(8);
+}
+
+.name{
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: toRem(20);
+   color: #000;
+}
+
+.ratingBlock{
+   @include align-center;
+   gap: toRem(13);
+}
+.rating{
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: toRem(14);
+   color: #000;
+   & b{
+      color: rgba(0, 0, 0, 0.6);
+   }
+}
+
+.starsContainer{
+   @include align-center;
+   gap: toRem(5);
+}
+.star{
+   font-size: 1.2rem;
+   display: inline-block;
+   
+}
+
+
+.priceBlock{
+   @include align-center;
+   gap: toRem(10);
+}
+.price{
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: toRem(24);
+   color: #000;
+}
+.originalPrice{
+   font-family: var(--font-family);
+   font-weight: 700;
+   font-size: toRem(24);
+   text-decoration: line-through;
+   color: rgba(0, 0, 0, 0.4);
+}
+.discount{
+   display: inline-block;
+   background: rgba(255, 51, 51, 0.1);
+   border-radius: toRem(62);
+   padding: toRem(6) toRem(13.5);
+
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: toRem(12);
+   color: #f33;
+}

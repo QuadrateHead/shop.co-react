@@ -1,0 +1,105 @@
+@use "/src/styles/scss/tools/function" as *;
+@use "/src/styles/scss/tools/mixins" as *;
+@use "/src/styles/scss/base/typography" as *;
+.userreview {
+   @include coloumn(40);
+		&__star {
+         aspect-ratio: 1 / 1;
+         width: toRem(22.5);
+         @include center;
+         & svg{
+            width: 100%;
+            height: 100%;
+         }
+		}
+
+		&__top {
+         @include side-pad;
+         display: flex;
+         align-items: flex-end;
+         justify-content: space-between;
+         flex-wrap: wrap;
+         gap: toRem(20);
+		}
+
+		&__heading {
+		}
+
+		&__arrows {
+         @include align-center;
+         gap: toRem(16);
+		}
+
+		&__arrow {
+         @include center;
+         &:hover svg {
+            transform: scale(1.08);
+         }
+		}
+
+
+		&__reviews {
+         display: flex;
+         width: 100%;
+         overflow: auto;
+         mask-image: linear-gradient(
+            to right,
+            transparent 0%,
+            #000000 8%,  /* Solid color starts 8% from the left edge */
+            #000000 92%, /* Solid color ends 92% from the left edge */
+            transparent 100%
+         );
+         scroll-behavior: smooth;
+		}
+      &__track{
+         display: flex;
+         gap: toRem(20);
+         //animation: scrollLoop 60s linear infinite;
+         padding-right: toRem(20);
+         /*&:hover {
+            animation-play-state: paused;
+         }*/
+      }
+
+		&__review-card {
+         @include coloumn(0);
+         border: 1px solid rgba(0, 0, 0, 0.1);
+         border-radius: toRem(20);
+         padding: toRem(28) toRem(32);
+         flex: 0 0 400px;
+         transition: transform 0.1s linear 0s;
+         &:active{
+            transform: scale(0.97);
+            transition: transform 0.1s linear 0s;
+         }
+		}
+      @keyframes scrollLoop {
+         from {translate: 0;}
+         to {translate: -100%;}
+      }
+
+		&__stars {
+         @include align-center;
+         gap: toRem(6.5);
+         margin-bottom: toRem(15);
+		}
+
+		&__account {
+         margin-bottom: toRem(12);
+         @include align-center;
+         gap: toRem(4);
+		}
+
+		&__name {
+         font-family: var(--font-family);
+         font-weight: 700;
+         font-size: toRem(20);
+         line-height: 110%;
+         color: #000;
+		}
+
+		&__comment {
+		}
+      
+}
+

@@ -1,0 +1,113 @@
+@use "/src/styles/scss/tools/function" as *;
+@use "/src/styles/scss/tools/mixins" as *;
+@use "/src/styles/scss/base/typography" as *;
+.navbar{
+   padding: toRem(24);
+   @include side-pad;
+   @include align-center;
+   justify-content: space-between;
+   gap: toRem(40);
+   flex-wrap: wrap;
+   @media (max-width: 400px){
+      gap: toRem(16);
+   }
+}
+.rightside{
+   @include align-center;
+   gap: toRem(40);
+   @media (max-width: 1080px){
+      gap: toRem(14);
+   }
+}
+.leftside{
+   @include align-center;
+   gap: toRem(40);
+   @media (max-width: 1110px){
+      gap: toRem(16);
+   }
+}
+.logo{
+   font-family: var(--second-family);
+   text-transform: capitalize;
+   font-weight: bold;
+   font-size: toRem(32);
+   text-align: center;
+   color: #000;
+   margin-bottom: toRem(10);
+   @media (max-width: 400px){
+      font-size: 1.5rem;
+      margin-bottom: toRem(7.5);
+   }
+}
+.nav{
+   flex: 1;
+   &__list{
+      @include align-center;
+      gap: toRem(24);
+   }
+   &__link{
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: toRem(16);
+      color: #000;
+      white-space: nowrap;
+   }
+   @media (max-width: 1110px){
+      display: none;
+      
+   }
+}
+.search{
+   @include align-center;
+   gap: toRem(12);
+   border-radius: toRem(62);
+   padding: toRem(12) toRem(16);
+   background: #f0f0f0;
+   &__btn{
+      & svg{
+         display: block;
+         min-width: toRem(24);
+         fill-opacity: 0.4;
+      }
+   }
+   &__input{
+      
+   }
+   &__input, &__input::placeholder{
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: toRem(16);
+      
+   }
+   @media (max-width: 1080px){
+      background: none;
+      padding: 0;
+      &__input{
+         display: none;
+      }
+      &__btn svg{
+         fill-opacity: 1;
+      }
+   }
+}
+.btn{
+   @include align-center;
+   gap: toRem(14);
+   &__icon svg{
+      display: block;
+      min-width: toRem(24);
+   }
+}
+.burger{
+   display: none;
+   @media (max-width: 1110px) {
+      display: block;
+      min-width: toRem(24);
+   }
+   & svg{
+      display: block;
+      color: black;
+      width: 100%;
+      height: 100%;
+   }
+}

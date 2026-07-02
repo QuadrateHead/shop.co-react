@@ -1,0 +1,28 @@
+@use "/src/styles/scss/tools/function" as *;
+@use "/src/styles/scss/tools/mixins" as *;
+.homepage__container{
+   width: 100vw;
+   @include coloumn(80);
+   padding-bottom: toRem(80);
+}
+.homepage__shop-block{
+   @include side-marg;
+   margin-top: toRem(72);
+}
+.homepage__slash{
+   @include side-marg;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   width: 100%;
+   height: 0px;
+   margin: toRem(64) 0;
+   
+}
+@media (max-width: 768px){
+   .homepage__slash{
+      margin-top: toRem(50);
+      margin-bottom: toRem(50);
+   }
+   .homepage__shop-block{
+      margin-top: toRem(50);
+   }
+}

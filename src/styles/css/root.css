@@ -1,0 +1,4 @@
+.root {
+  grid-template-columns: 82 1fr;
+  grid-template-areas: "sidebar navbar" "sidebar main" "sidebar footer";
+}

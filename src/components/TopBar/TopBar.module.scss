@@ -1,0 +1,41 @@
+@use "/src/styles/scss/tools/function" as *;
+@use "/src/styles/scss/tools/mixins" as *;
+@use "/src/styles/scss/base/typography" as *;
+.topbar{
+   background: #000;
+   padding: toRem(9);
+   @include side-pad;
+   @include center;
+   
+}
+
+.text{
+   margin-inline: auto;
+   font-family: var(--font-family);
+   font-weight: 400;
+   font-size: toRem(14);
+   color: #fff;
+   & a{
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: toRem(14);
+      color: #fff;
+      font-weight: 500;
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+   }
+   @media (max-width: 400px){
+      &, & a{
+         font-size: toRem(12);
+      }
+      
+   }
+}
+.btn{
+   & svg{
+      display: block;
+   }
+   @media (max-width: 768px){
+      display: none;
+   }
+}

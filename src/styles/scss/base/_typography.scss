@@ -1,0 +1,58 @@
+@use "/src/styles/scss/tools/function" as *;
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/src/assets/fonts/Satoshi-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Integral CF';
+  src: url('/src/assets/fonts/Fontspring-DEMO-integralcf-bold.otf') format('opentype');
+}
+:root {
+  --font-family: "Satoshi", sans-serif;
+  --second-family: "Integral CF", sans-serif;
+}
+.p-16{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: toRem(14);
+  line-height: 138%;
+  color: rgba(0, 0, 0, 0.6);
+  @media (min-width: 468px){
+    font-size: toRem(16);
+  }
+  &::placeholder{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: toRem(14);
+    line-height: 138%;
+    color: rgba(0, 0, 0, 0.6);
+    @media (min-width: 468px){
+      font-size: toRem(16);
+    }
+  }
+}
+.head-48{
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: toRem(48);
+  text-align: center;
+  color: #000;
+  @media (max-width: 768px){
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: toRem(32);
+    line-height: 113%;
+    text-align: center;
+    color: #000;
+  }
+}
+.p-20{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: toRem(16);
+  line-height: 138%;
+  color: rgba(0, 0, 0, 0.6);
+  @media (min-width: 468px){
+    font-size: toRem(20);
+  }
+}

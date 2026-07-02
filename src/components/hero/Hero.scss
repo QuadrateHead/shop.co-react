@@ -1,0 +1,109 @@
+@use "/src/styles/scss/tools/function" as *;
+@use "/src/styles/scss/tools/mixins" as *;
+@use "/src/styles/scss/base/typography" as *;
+.hero {
+   background: #F2F0F1;
+   display: flex;
+   align-items: flex-end;
+   @include side-pad;
+		&__content {
+         width: 50%;
+         display: flex;
+         flex-direction: column;
+         gap: toRem(48);
+         padding-top: toRem(16);
+		}
+
+		&__textblock {
+         @include coloumn(32);
+         align-items: flex-start;
+         
+		}
+
+		&__heading {
+         font-family: var(--second-family);
+         font-weight: 700;
+         font-size: toRem(64);
+         line-height: 100%;
+         color: #000;
+         max-width: toRem(550);
+         @media (max-width: 640px){
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: toRem(36);
+            line-height: 94%;
+            color: #000;
+         }
+		}
+
+		&__caption {
+         max-width: toRem(550);
+		}
+
+		&__shopnow {
+         padding: toRem(15) toRem(67.5);
+         
+		}
+
+
+		&__states {
+         margin-bottom: toRem(40);
+         @include align-center;
+         gap: 2.5rem;
+         justify-content: space-between;
+         flex-wrap: wrap;
+		}
+
+		&__state {
+         display: flex;
+         justify-content: center;
+         flex-grow: 1;
+         
+		}
+
+		&__title {
+         font-family: var(--font-family);
+         font-weight: 700;
+         font-size: toRem(40);
+         color: #000;
+		}
+
+		&__subtitle {
+		}
+
+
+      &__bg{
+         position: relative;
+      }
+		&__sideimg {
+         width: 100%;
+         object-fit: cover;
+         object-position: center;
+		}  
+      &__icon{
+         position: absolute;
+         top: 86px;
+         right: calc(82/710)*100%;
+         width: calc(104/730)*100%;
+      }
+      &__icon1{
+         position: absolute;
+         top: 50%;
+         transform: translateY(-50%);
+         left: 20px;
+      }
+
+      @media (max-width: 1110px){
+         flex-direction: column;
+         align-items: center;
+         &__content, &__shopnow{
+            width: 100%;
+         }
+
+         
+      }
+      @media (min-width: 1110px){
+         padding-right: 0;
+      }
+}
+

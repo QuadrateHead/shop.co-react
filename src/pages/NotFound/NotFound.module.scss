@@ -1,0 +1,26 @@
+@use "/src/styles/scss/tools/function" as *;
+@use "/src/styles/scss/tools/mixins" as *;
+@use "/src/styles/scss/base/typography" as *;
+.block{
+   @include center;
+   flex-direction: column;
+   gap: toRem(30);
+   background: black;
+   width: 100vw;
+   height: 100px;
+   padding: 25%;
+   margin-bottom: toRem(20);
+}
+.text{
+   font-family: var(--second-family);
+   font-weight: 500;
+   font-size: toRem(100);
+   color: #fff;
+
+}
+.btn{
+   font-size: 36px;
+   background-color: #fff;
+   color: black;
+   padding: toRem(20) toRem(35);
+}
