@@ -8,7 +8,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import ProductPage from "./pages/ProductPage/ProductPage";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shop.co-react">
       <TopBar/>
       <NavBar/>
       <Routes>
