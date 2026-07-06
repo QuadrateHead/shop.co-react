@@ -1,0 +1,20 @@
+@use "../../styles/scss/tools/function" as *;
+@use "../../styles/scss/tools/mixins" as *;
+
+.path{
+   @include align-center;
+      gap: toRem(12);
+      margin-bottom: toRem(24);
+}
+.category{
+   @include align-center;
+      gap: toRem(4);
+
+      text-transform: capitalize;
+      &:last-child{
+         & a{
+            color: #000 ;
+         }
+         
+      }
+}

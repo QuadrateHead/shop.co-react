@@ -146,6 +146,40 @@ export const alsoLikeData = [
     image: "/src/assets/topSellingImage/Frame 38.png",
   },
 ];
+export const casualData = [
+  {
+    id: 301,
+    name: "Polo with Contrast Trims",
+    price: 212,
+    originalPrice: 242,
+    discount: 20,
+    rating: 4.0,
+    image: "/src/assets/topSellingImage/Frame 32.png",
+  },
+  {
+    id: 302,
+    name: "Gradient Graphic T-shirt",
+    price: 145,
+    rating: 3.5,
+    image: "/src/assets/topSellingImage/Frame 33.png",
+  },
+  {
+    id: 303,
+    name: "Polo with Tipping Details",
+    price: 180,
+    rating: 4.5,
+    image: "/src/assets/topSellingImage/Frame 34.png",
+  },
+  {
+    id: 304,
+    name: "Black Striped T-shirt",
+    price: 120,
+    originalPrice: 150,
+    discount: 30,
+    rating: 5.0,
+    image: "/src/assets/topSellingImage/Frame 38.png",
+  },
+];
 export const allProducts = [
   ...newArrivalsData,...topSellingData
 ]

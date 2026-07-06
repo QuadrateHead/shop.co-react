@@ -1,0 +1,8 @@
+@use "../../styles/scss/tools/function" as *;
+@use "../../styles/scss/tools/mixins" as *;
+@use "../../styles/scss/base/typography" as *;
+
+.shop{
+   @include side-pad;
+   padding-bottom: toRem(80);
+}

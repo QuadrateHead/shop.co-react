@@ -24,7 +24,7 @@ const NavBar = () => {
         </Link>
         <nav className={styles.nav}>
           <ul className={styles.nav__list}>
-            <Link to="*" className={styles.nav__link}>
+            <Link to="/shop" className={styles.nav__link}>
               Shop
             </Link>
             <a href="#" className={styles.nav__link}>
