@@ -51,7 +51,7 @@ const ProductCard = ({ product, hover }) => {
     >
       <div className={styles.imageContainer}>
         <img
-          src={product.image}
+          src={product.colors[0].image[0]}
           alt={product.name}
           className={`${styles.image} ${hover == "right" ? styles.right : styles.left}`}
         />
