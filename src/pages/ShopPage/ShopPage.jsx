@@ -5,7 +5,24 @@ import { useParams } from "react-router-dom";
 import ShopList from "../../components/ShopList/ShopList";
 import FilterBlock from "../../components/FilterBlock/FilterBlock";
 import "./ShopPage.scss";
-const ShopPage = ({ data }) => {
+import { allProducts, casualData } from "/src/data/productsData";
+const ShopPage = () => {
+
+  const { category, id } = useParams();
+  const data = (id) =>{
+    //{id ? id : category}
+    if(!id){
+      return allProducts;
+    }else{
+      switch(id){
+        case "casual":
+          return casualData;
+        default:
+          return []
+      }
+    }
+  }
+
   const [selectedFilters, setSelectedFilters] = useState({
     type: "", // e.g., "t-shirt", "shorts" (Matches your `type` key)
     minPrice: 50,
@@ -14,7 +31,7 @@ const ShopPage = ({ data }) => {
     sizes: [], // e.g., ["large", "x-large"]
     style: "", // e.g., "casual"
   });
-  const filteredProducts = data.filter((product) => {
+  const filteredProducts = data(id).filter((product) => {
     // 1. Filter by Product Type (Category)
     if (selectedFilters.type && product.type !== selectedFilters.type) {
       return false;

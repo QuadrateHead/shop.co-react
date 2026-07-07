@@ -450,5 +450,6 @@ export const casualData = [
 
 export const allProducts = [
   ...newArrivalsData,
-  ...topSellingData
+  ...topSellingData,
+  ...casualData
 ];

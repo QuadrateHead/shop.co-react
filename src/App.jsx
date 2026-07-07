@@ -17,8 +17,8 @@ function App() {
          <Route path = "/" element={<HomePage />} />
          <Route path = "*" element={<NotFound />} />
          <Route path = "/product/:id" element={<ProductPage />} />
-         <Route path = "/:category" element={<ShopPage data = {allProducts}/>} />
-         <Route path = "/:category/:id" element={<ShopPage data = {allProducts}/>} />
+         <Route path = "/:category" element={<ShopPage/>} />
+         <Route path = "/:category/:id" element={<ShopPage/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
