@@ -25,45 +25,53 @@ const ShopPage = () => {
 
   const [selectedFilters, setSelectedFilters] = useState({
     type: "", // e.g., "t-shirt", "shorts" (Matches your `type` key)
-    minPrice: 50,
-    maxPrice: 200,
+    minPrice: 0,
+    maxPrice: 500,
     colors: [], // e.g., ["#4f4631", "#314f4a"] (Array of hex strings)
     sizes: [], // e.g., ["large", "x-large"]
     style: "", // e.g., "casual"
   });
   const filteredProducts = data(id).filter((product) => {
-    // 1. Filter by Product Type (Category)
+    // 1. Filter by Product Type (Matches simple string e.g., "t-shirt")
     if (selectedFilters.type && product.type !== selectedFilters.type) {
       return false;
     }
-    // 2. Filter by Price Range (Checks against the current active price)
+
+    // 2. Filter by Price Range (Checks current active price bounds)
     if (
       product.price < selectedFilters.minPrice ||
       product.price > selectedFilters.maxPrice
     ) {
       return false;
     }
-    // 3. Filter by Colors (Deep check inside the colors array)
+
+    // 3. Filter by Colors (Deep check inside the array of objects)
     if (selectedFilters.colors.length > 0) {
-      // Check if AT LEAST ONE of the product's hex colors is inside the selectedFilters.colors array
+      // Looks inside product.colors to see if at least ONE of its hex values
+      // is included in the user's selected filters array
       const hasMatchingColor = product.colors.some((colorObj) =>
-        selectedFilters.colors.includes(colorObj.color),
+        selectedFilters.colors.includes(colorObj.color)
       );
       if (!hasMatchingColor) return false;
     }
-    // 4. Filter by Sizes (Checks if product sizes overlap with selected sizes)
+
+    // 4. Filter by Sizes (Checks for any overlapping elements)
     if (selectedFilters.sizes.length > 0) {
-      // Check if AT LEAST ONE of the product's sizes is inside the selectedFilters.sizes array
-      const hasMatchingSize = product.sizes.some((size) =>
-        selectedFilters.sizes.includes(size),
+      // Looks inside product.sizes array of strings to see if at least ONE
+      // of its size values is included in the user's selected filters array
+      const hasMatchingSize = product.sizes.some((sizeString) =>
+        selectedFilters.sizes.includes(sizeString.toLowerCase())
       );
       if (!hasMatchingSize) return false;
     }
-    // 5. Filter by Style (e.g., Casual, Formal - add a 'style' key to your data if needed!)
+
+    // 5. Filter by Dress Style (e.g., Casual, Formal, Party)
+    // Note: Make sure to add a 'style' property to your product objects if using this!
     if (selectedFilters.style && product.style !== selectedFilters.style) {
       return false;
     }
 
+    // If the product passes every active validation check above, display it!
     return true;
   });
 
@@ -79,8 +87,8 @@ const ShopPage = () => {
       ></div>
       <PagePath />
       <div className="shop__container">
-        <FilterBlock selectedFilters={selectedFilters} setSelectedFilters={setSelectedFilters}></FilterBlock>
-        <ShopList products={filteredProducts}></ShopList>
+        <FilterBlock className = "shop__filter" selectedFilters={selectedFilters} setSelectedFilters={setSelectedFilters}></FilterBlock>
+        <ShopList className = "shop__shop-list" products={filteredProducts}></ShopList>
       </div>
     </div>
   );

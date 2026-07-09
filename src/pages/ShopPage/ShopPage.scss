@@ -6,3 +6,7 @@
    @include side-pad;
    padding-bottom: toRem(80);
 }
+.shop__container{
+   display: flex;
+   gap: toRem(21);
+}

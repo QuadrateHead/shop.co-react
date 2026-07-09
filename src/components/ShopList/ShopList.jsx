@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from "react-router-dom";
 import ProductCard from '../../elements/ProductCard/ProductCard';
-
+import "./ShopList.scss"
 const ShopList = ({products}) => {
   const { category, id } = useParams();
   return (

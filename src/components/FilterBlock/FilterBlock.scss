@@ -1,0 +1,133 @@
+@use "../../styles/scss/base/typography" as *;
+@use "../../styles/scss/tools/function" as *;
+@use "../../styles/scss/tools/mixins" as *;
+.filter{
+   @include coloumn(0);
+   height: max-content;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   border-radius: 20px;
+   min-width: toRem(295);
+   max-width: toRem(295);
+   padding: 20px 24px;
+   
+   &__header{
+      @include align-center;
+      justify-content: space-between;
+   }
+   &__heading{
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: toRem(20);
+      color: #000;
+   }
+   &__container{
+      margin-top: toRem(24);
+      @include coloumn(24);
+      overflow: hidden;
+      transform: translateX(0);
+      transition: transform 0.3s ease-in 0.03s;
+      &.closed{
+         margin-top: 0;
+         height: 0;
+         transform: translateX(-100%);
+         transition: transform 0.4s ease-in 0.03s;
+      }
+   }
+   &__section{
+      @include coloumn(20);
+   }
+   &__title{
+      @include align-center;
+      justify-content: space-between;
+
+      font-family: var(--font-family);
+      font-weight: 700;
+      font-size: toRem(20);
+      color: #000;
+      & svg{
+         transition: transform 0.1s linear 0s;
+      }
+      &.closed{
+         & svg{
+            transform: rotate(-180deg);
+            transition: transform 0.2s ease-in-out 0.05s;
+         }
+      }
+   }
+   &__grid-colors{
+      display: grid;
+      grid-template-columns: repeat(5, toRem(35));
+      grid-template-rows: toRem(35) toRem(35);
+      gap: toRem(15.5);
+      & button{
+         @include center;
+         width: 100%;
+         height: 100%;
+         border-radius: 100%;
+         border: 1px solid rgba(0, 0, 0, 0.2);
+         & svg{
+            display: none;
+         }
+         &.active{
+            & svg{
+               display: block;
+            }
+            
+         }
+      }
+      &.closed{
+         & button{
+            transform: translateX(calc(-200 - var(--i)*calc(15.5 + 35)));
+            transition-property:transform;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: calc(var(--i) * 0.1s);
+         }
+         
+         
+      }
+   }
+   &__grid-categories{
+      @include coloumn(20);
+      & button{
+         @include align-center;
+         justify-content: space-between;
+         font-family: var(--font-family);
+         text-transform: capitalize;
+         font-weight: 400;
+         font-size: 16px;
+         color: rgba(0, 0, 0, 0.6);
+         & svg{
+            transition: transform 0.1s linear 0s;
+         }
+         &.active{
+            & svg{
+               transform: rotate(-180deg);
+               transition: transform 0.2s ease-in-out 0.05s;
+            }
+         }
+      }
+   }
+   &__grid-sizes{
+      display: flex;
+      flex-wrap: wrap;
+      gap: toRem(8);
+      & button{
+         border-radius: toRem(62);
+         padding: 10px 20px;
+         background: #f0f0f0;
+
+         font-family: var(--font-family);
+         font-weight: 400;
+         font-size: toRem(14);
+         color: rgba(0, 0, 0, 0.6);
+         text-transform: capitalize;
+         &.active{
+            background: #000;
+            color: #fff;
+         }
+      }
+   }
+   
+}
+

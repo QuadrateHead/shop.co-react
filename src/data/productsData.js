@@ -5,7 +5,7 @@ export const newArrivalsData = [
     price: 120,
     rating: 4.5,
     gender: "male",
-    type: "t-shirt",
+    type: "t-shirts",
     describtion: "A comfortable classic t-shirt featuring subtle tape details along the sleeves. Perfect for everyday casual wear.",
     colors: [
       {
@@ -18,6 +18,30 @@ export const newArrivalsData = [
       },
       {
         color: "#ffffff",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/src/assets/newArrivalsImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#00C12B",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/src/assets/newArrivalsImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#F50606",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/src/assets/newArrivalsImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#F5DD06",
         image: [
           "/src/assets/newArrivalsImage/Frame 32.png",
           "/src/assets/newArrivalsImage/Frame 32.png",
@@ -53,6 +77,30 @@ export const newArrivalsData = [
           "/src/assets/newArrivalsImage/Frame 33.png",
           "/src/assets/newArrivalsImage/Frame 33.png",
         ],
+      },
+      {
+        color: "#F57906",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/src/assets/newArrivalsImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#06CAF5",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/src/assets/newArrivalsImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#F506A4",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/src/assets/newArrivalsImage/Frame 33.png",
+        ],
       }
     ],
     sizes: ["small", "medium", "large", "x-large"]
@@ -63,7 +111,7 @@ export const newArrivalsData = [
     price: 180,
     rating: 4.5,
     gender: "male",
-    type: "shirt",
+    type: "shirts",
     describtion: "A classic checkered button-down shirt. Breathable and versatile for both casual and smart-casual occasions.",
     colors: [
       {
@@ -81,6 +129,30 @@ export const newArrivalsData = [
           "/src/assets/newArrivalsImage/Frame 34.png",
           "/src/assets/newArrivalsImage/Frame 34.png",
         ],
+      },
+      {
+        color: "#F5DD06",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/src/assets/newArrivalsImage/Frame 34.png",
+        ],
+      },
+      {
+        color: "#7D06F5",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/src/assets/newArrivalsImage/Frame 34.png",
+        ],
+      },
+      {
+        color: "#ffffff",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/src/assets/newArrivalsImage/Frame 34.png",
+        ],
       }
     ],
     sizes: ["small", "medium", "large", "x-large"]
@@ -93,7 +165,7 @@ export const newArrivalsData = [
     discount: 30,
     rating: 3.5,
     gender: "male",
-    type: "t-shirt",
+    type: "t-shirts",
     describtion: "Sporty and stylish, this t-shirt features contrasting sleeve stripes and a relaxed fit.",
     colors: [
       {
@@ -111,6 +183,30 @@ export const newArrivalsData = [
           "/src/assets/newArrivalsImage/Frame 38.png",
           "/src/assets/newArrivalsImage/Frame 38.png",
         ],
+      },
+      {
+        color: "#00C12B",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/src/assets/newArrivalsImage/Frame 38.png",
+        ],
+      },
+      {
+        color: "#063AF5",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/src/assets/newArrivalsImage/Frame 38.png",
+        ],
+      },
+      {
+        color: "#F506A4",
+        image: [
+          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/src/assets/newArrivalsImage/Frame 38.png",
+        ],
       }
     ],
     sizes: ["small", "medium", "large", "x-large"]
@@ -123,7 +219,7 @@ export const newArrivalsData = [
     discount: 40,
     rating: 4.5,
     gender: "male",
-    type: "t-shirt",
+    type: "t-shirts",
     describtion: "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
     colors: [
       {
@@ -149,6 +245,30 @@ export const newArrivalsData = [
           "/src/assets/newArrivalsImage/id5/image 2.png",
           "/src/assets/newArrivalsImage/id5/image 6.png",
         ],
+      },
+      {
+        color: "#F50606",
+        image: [
+          "/src/assets/newArrivalsImage/id5/image 2.png",
+          "/src/assets/newArrivalsImage/id5/image 5.png",
+          "/src/assets/newArrivalsImage/id5/image 6.png",
+        ],
+      },
+      {
+        color: "#06CAF5",
+        image: [
+          "/src/assets/newArrivalsImage/id5/image 2.png",
+          "/src/assets/newArrivalsImage/id5/image 5.png",
+          "/src/assets/newArrivalsImage/id5/image 6.png",
+        ],
+      },
+      {
+        color: "#F5DD06",
+        image: [
+          "/src/assets/newArrivalsImage/id5/image 2.png",
+          "/src/assets/newArrivalsImage/id5/image 5.png",
+          "/src/assets/newArrivalsImage/id5/image 6.png",
+        ],
       }
     ],
     sizes: ["small", "medium", "large", "x-large"]
@@ -164,7 +284,7 @@ export const topSellingData = [
     discount: 20,
     rating: 5.0,
     gender: "male",
-    type: "shirt",
+    type: "shirts",
     describtion: "Elevate your look with this vertical striped button-up. Designed to provide a slimming effect and all-day comfort.",
     colors: [
       {
@@ -182,6 +302,30 @@ export const topSellingData = [
           "/src/assets/topSellingImage/Frame 32.png",
           "/src/assets/topSellingImage/Frame 32.png",
         ],
+      },
+      {
+        color: "#F57906",
+        image: [
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#F506A4",
+        image: [
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#ffffff",
+        image: [
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+        ],
       }
     ],
     sizes: ["small", "medium", "large", "x-large"]
@@ -192,7 +336,7 @@ export const topSellingData = [
     price: 145,
     rating: 4.0,
     gender: "male",
-    type: "t-shirt",
+    type: "t-shirts",
     describtion: "Stand out with this bold graphic tee. Made from premium cotton blends for a soft touch.",
     colors: [
       {
@@ -205,6 +349,30 @@ export const topSellingData = [
       },
       {
         color: "#000000", // Black
+        image: [
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#00C12B",
+        image: [
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#06CAF5",
+        image: [
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#7D06F5",
         image: [
           "/src/assets/topSellingImage/Frame 33.png",
           "/src/assets/topSellingImage/Frame 33.png",
@@ -240,6 +408,30 @@ export const topSellingData = [
           "/src/assets/topSellingImage/Frame 34.png",
           "/src/assets/topSellingImage/Frame 34.png",
         ],
+      },
+      {
+        color: "#F5DD06",
+        image: [
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+        ],
+      },
+      {
+        color: "#F50606",
+        image: [
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+        ],
+      },
+      {
+        color: "#000000",
+        image: [
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+        ],
       }
     ],
     sizes: ["small", "medium", "large", "x-large"]
@@ -268,6 +460,30 @@ export const topSellingData = [
           "/src/assets/topSellingImage/Frame 38.png",
           "/src/assets/topSellingImage/Frame 38.png",
         ],
+      },
+      {
+        color: "#00C12B",
+        image: [
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+        ],
+      },
+      {
+        color: "#F57906",
+        image: [
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+        ],
+      },
+      {
+        color: "#F506A4",
+        image: [
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+        ],
       }
     ],
     sizes: ["small", "medium", "large", "x-large"]
@@ -283,11 +499,35 @@ export const alsoLikeData = [
     discount: 20,
     rating: 4.0,
     gender: "male",
-    type: "polo",
+    type: "polos",
     describtion: "A refined polo shirt featuring sharp contrast trims on the collar and cuffs.",
     colors: [
       {
         color: "#0284c7", // Teal/Blue
+        image: [
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#F50606",
+        image: [
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#F5DD06",
+        image: [
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/topSellingImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#000000",
         image: [
           "/src/assets/topSellingImage/Frame 32.png",
           "/src/assets/topSellingImage/Frame 32.png",
@@ -303,11 +543,35 @@ export const alsoLikeData = [
     price: 145,
     rating: 3.5,
     gender: "male",
-    type: "t-shirt",
+    type: "t-shirts",
     describtion: "A vibrant graphic tee featuring a unique color gradient design across the chest.",
     colors: [
       {
         color: "#ffffff", // White base
+        image: [
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#00C12B",
+        image: [
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#7D06F5",
+        image: [
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/topSellingImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#F57906",
         image: [
           "/src/assets/topSellingImage/Frame 33.png",
           "/src/assets/topSellingImage/Frame 33.png",
@@ -323,11 +587,35 @@ export const alsoLikeData = [
     price: 180,
     rating: 4.5,
     gender: "male",
-    type: "polo",
+    type: "polos",
     describtion: "Upgrade your casual wardrobe with this textured polo featuring elegant tipping details.",
     colors: [
       {
         color: "#9f1239", // Maroon/Red
+        image: [
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+        ],
+      },
+      {
+        color: "#06CAF5",
+        image: [
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+        ],
+      },
+      {
+        color: "#063AF5",
+        image: [
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/topSellingImage/Frame 34.png",
+        ],
+      },
+      {
+        color: "#ffffff",
         image: [
           "/src/assets/topSellingImage/Frame 34.png",
           "/src/assets/topSellingImage/Frame 34.png",
@@ -345,11 +633,35 @@ export const alsoLikeData = [
     discount: 30,
     rating: 5.0,
     gender: "male",
-    type: "t-shirt",
+    type: "t-shirts",
     describtion: "A sleek black-and-white striped t-shirt with raglan sleeves for a modern profile.",
     colors: [
       {
         color: "#000000", // Black/White
+        image: [
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+        ],
+      },
+      {
+        color: "#F5DD06",
+        image: [
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+        ],
+      },
+      {
+        color: "#F506A4",
+        image: [
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/topSellingImage/Frame 38.png",
+        ],
+      },
+      {
+        color: "#00C12B",
         image: [
           "/src/assets/topSellingImage/Frame 38.png",
           "/src/assets/topSellingImage/Frame 38.png",
@@ -364,21 +676,43 @@ export const alsoLikeData = [
 export const casualData = [
   {
     id: 301,
-    name: "Polo with Contrast Trims",
-    price: 212,
-    originalPrice: 242,
-    discount: 20,
-    rating: 4.0,
+    name: "Gradient Graphic T-shirt",
+    price: 145,
+    rating: 3.5,
     gender: "male",
-    type: "polo",
-    describtion: "A refined polo shirt featuring sharp contrast trims on the collar and cuffs.",
+    type: "t-shirts",
+    describtion: "A vibrant graphic tee featuring a unique color gradient design across the chest.",
     colors: [
       {
-        color: "#0284c7",
+        color: "#ffffff",
         image: [
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
+          "/src/assets/casualImage/Frame 33.png",
+          "/src/assets/casualImage/Frame 33.png",
+          "/src/assets/casualImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#F50606",
+        image: [
+          "/src/assets/casualImage/Frame 33.png",
+          "/src/assets/casualImage/Frame 33.png",
+          "/src/assets/casualImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#063AF5",
+        image: [
+          "/src/assets/casualImage/Frame 33.png",
+          "/src/assets/casualImage/Frame 33.png",
+          "/src/assets/casualImage/Frame 33.png",
+        ],
+      },
+      {
+        color: "#F57906",
+        image: [
+          "/src/assets/casualImage/Frame 33.png",
+          "/src/assets/casualImage/Frame 33.png",
+          "/src/assets/casualImage/Frame 33.png",
         ],
       }
     ],
@@ -386,19 +720,43 @@ export const casualData = [
   },
   {
     id: 302,
-    name: "Gradient Graphic T-shirt",
-    price: 145,
-    rating: 3.5,
+    name: "Polo with Tipping Details",
+    price: 180,
+    rating: 4.5,
     gender: "male",
-    type: "t-shirt",
-    describtion: "A vibrant graphic tee featuring a unique color gradient design across the chest.",
+    type: "polos",
+    describtion: "Upgrade your casual wardrobe with this textured polo featuring elegant tipping details.",
     colors: [
       {
-        color: "#ffffff",
+        color: "#9f1239",
         image: [
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
+          "/src/assets/casualImage/Frame 34.png",
+          "/src/assets/casualImage/Frame 34.png",
+          "/src/assets/casualImage/Frame 34.png",
+        ],
+      },
+      {
+        color: "#00C12B",
+        image: [
+          "/src/assets/casualImage/Frame 34.png",
+          "/src/assets/casualImage/Frame 34.png",
+          "/src/assets/casualImage/Frame 34.png",
+        ],
+      },
+      {
+        color: "#06CAF5",
+        image: [
+          "/src/assets/casualImage/Frame 34.png",
+          "/src/assets/casualImage/Frame 34.png",
+          "/src/assets/casualImage/Frame 34.png",
+        ],
+      },
+      {
+        color: "#000000",
+        image: [
+          "/src/assets/casualImage/Frame 34.png",
+          "/src/assets/casualImage/Frame 34.png",
+          "/src/assets/casualImage/Frame 34.png",
         ],
       }
     ],
@@ -406,19 +764,45 @@ export const casualData = [
   },
   {
     id: 303,
-    name: "Polo with Tipping Details",
-    price: 180,
-    rating: 4.5,
+    name: "Black Striped T-shirt",
+    price: 120,
+    originalPrice: 150,
+    discount: 30,
+    rating: 5.0,
     gender: "male",
-    type: "polo",
-    describtion: "Upgrade your casual wardrobe with this textured polo featuring elegant tipping details.",
+    type: "t-shirts",
+    describtion: "A sleek black-and-white striped t-shirt with raglan sleeves for a modern profile.",
     colors: [
       {
-        color: "#9f1239",
+        color: "#000000",
         image: [
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
+          "/src/assets/casualImage/Frame 38.png",
+          "/src/assets/casualImage/Frame 38.png",
+          "/src/assets/casualImage/Frame 38.png",
+        ],
+      },
+      {
+        color: "#F5DD06",
+        image: [
+          "/src/assets/casualImage/Frame 38.png",
+          "/src/assets/casualImage/Frame 38.png",
+          "/src/assets/casualImage/Frame 38.png",
+        ],
+      },
+      {
+        color: "#7D06F5",
+        image: [
+          "/src/assets/casualImage/Frame 38.png",
+          "/src/assets/casualImage/Frame 38.png",
+          "/src/assets/casualImage/Frame 38.png",
+        ],
+      },
+      {
+        color: "#ffffff",
+        image: [
+          "/src/assets/casualImage/Frame 38.png",
+          "/src/assets/casualImage/Frame 38.png",
+          "/src/assets/casualImage/Frame 38.png",
         ],
       }
     ],
@@ -426,21 +810,269 @@ export const casualData = [
   },
   {
     id: 304,
-    name: "Black Striped T-shirt",
-    price: 120,
-    originalPrice: 150,
-    discount: 30,
-    rating: 5.0,
-    gender: "male",
-    type: "t-shirt",
-    describtion: "A sleek black-and-white striped t-shirt with raglan sleeves for a modern profile.",
+    name: "Skinny Fit Jeans",
+    price: 240,
+    originalPrice: 260,
+    discount: 20,
+    rating: 3.5,
+    gender: "female",
+    type: "jeans",
+    describtion: "Form-fitting skinny jeans crafted from stretch denim for maximum comfort and a flattering silhouette.",
     colors: [
+      {
+        color: "#1e3a8a",
+        image: [
+          "/src/assets/casualImage/Frame 71.png",
+          "/src/assets/casualImage/Frame 71.png",
+          "/src/assets/casualImage/Frame 71.png",
+        ],
+      },
+      {
+        color: "#F57906",
+        image: [
+          "/src/assets/casualImage/Frame 71.png",
+          "/src/assets/casualImage/Frame 71.png",
+          "/src/assets/casualImage/Frame 71.png",
+        ],
+      },
+      {
+        color: "#F506A4",
+        image: [
+          "/src/assets/casualImage/Frame 71.png",
+          "/src/assets/casualImage/Frame 71.png",
+          "/src/assets/casualImage/Frame 71.png",
+        ],
+      },
+      {
+        color: "#F50606",
+        image: [
+          "/src/assets/casualImage/Frame 71.png",
+          "/src/assets/casualImage/Frame 71.png",
+          "/src/assets/casualImage/Frame 71.png",
+        ],
+      }
+    ],
+    sizes: ["small", "medium", "large", "x-large"]
+  },
+  {
+    id: 305,
+    name: "Checkered Shirt",
+    price: 180,
+    rating: 4.5,
+    gender: "male",
+    type: "shirts",
+    describtion: "A classic checkered button-down shirt. Breathable and versatile for both casual and smart-casual occasions.",
+    colors: [
+      {
+        color: "#7f1d1d",
+        image: [
+          "/src/assets/casualImage/Frame 72.png",
+          "/src/assets/casualImage/Frame 72.png",
+          "/src/assets/casualImage/Frame 72.png",
+        ],
+      },
+      {
+        color: "#063AF5",
+        image: [
+          "/src/assets/casualImage/Frame 72.png",
+          "/src/assets/casualImage/Frame 72.png",
+          "/src/assets/casualImage/Frame 72.png",
+        ],
+      },
+      {
+        color: "#F5DD06",
+        image: [
+          "/src/assets/casualImage/Frame 72.png",
+          "/src/assets/casualImage/Frame 72.png",
+          "/src/assets/casualImage/Frame 72.png",
+        ],
+      },
+      {
+        color: "#06CAF5",
+        image: [
+          "/src/assets/casualImage/Frame 72.png",
+          "/src/assets/casualImage/Frame 72.png",
+          "/src/assets/casualImage/Frame 72.png",
+        ],
+      }
+    ],
+    sizes: ["small", "medium", "large", "x-large"]
+  },
+  {
+    id: 306,
+    name: "Sleeve Striped T-shirt",
+    price: 130,
+    originalPrice: 160,
+    discount: 30,
+    rating: 3.5,
+    gender: "male",
+    type: "t-shirts",
+    describtion: "Sporty and stylish, this t-shirt features contrasting sleeve stripes and a relaxed fit.",
+    colors: [
+      {
+        color: "#ea580c",
+        image: [
+          "/src/assets/casualImage/Frame 73.png",
+          "/src/assets/casualImage/Frame 73.png",
+          "/src/assets/casualImage/Frame 73.png",
+        ],
+      },
+      {
+        color: "#00C12B",
+        image: [
+          "/src/assets/casualImage/Frame 73.png",
+          "/src/assets/casualImage/Frame 73.png",
+          "/src/assets/casualImage/Frame 73.png",
+        ],
+      },
+      {
+        color: "#7D06F5",
+        image: [
+          "/src/assets/casualImage/Frame 73.png",
+          "/src/assets/casualImage/Frame 73.png",
+          "/src/assets/casualImage/Frame 73.png",
+        ],
+      },
       {
         color: "#000000",
         image: [
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
+          "/src/assets/casualImage/Frame 73.png",
+          "/src/assets/casualImage/Frame 73.png",
+          "/src/assets/casualImage/Frame 73.png",
+        ],
+      }
+    ],
+    sizes: ["small", "medium", "large", "x-large"]
+  },
+  {
+    id: 307,
+    name: "Vertical Striped Shirt",
+    price: 212,
+    originalPrice: 232,
+    discount: 20,
+    rating: 5.0,
+    gender: "male",
+    type: "shirts",
+    describtion: "Elevate your look with this vertical striped button-up. Designed to provide a slimming effect and all-day comfort.",
+    colors: [
+      {
+        color: "#166534",
+        image: [
+          "/src/assets/casualImage/Frame 32.png",
+          "/src/assets/casualImage/Frame 32.png",
+          "/src/assets/casualImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#F506A4",
+        image: [
+          "/src/assets/casualImage/Frame 32.png",
+          "/src/assets/casualImage/Frame 32.png",
+          "/src/assets/casualImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#ffffff",
+        image: [
+          "/src/assets/casualImage/Frame 32.png",
+          "/src/assets/casualImage/Frame 32.png",
+          "/src/assets/casualImage/Frame 32.png",
+        ],
+      },
+      {
+        color: "#F50606",
+        image: [
+          "/src/assets/casualImage/Frame 32.png",
+          "/src/assets/casualImage/Frame 32.png",
+          "/src/assets/casualImage/Frame 32.png",
+        ],
+      }
+    ],
+    sizes: ["small", "medium", "large", "x-large"]
+  },
+  {
+    id: 308,
+    name: "Courage Graphic T-shirt",
+    price: 145,
+    rating: 4.0,
+    gender: "male",
+    type: "t-shirts",
+    describtion: "Stand out with this bold graphic tee. Made from premium cotton blends for a soft touch.",
+    colors: [
+      {
+        color: "#ea580c",
+        image: [
+          "/src/assets/casualImage/Frame 70.png",
+          "/src/assets/casualImage/Frame 70.png",
+          "/src/assets/casualImage/Frame 70.png",
+        ],
+      },
+      {
+        color: "#06CAF5",
+        image: [
+          "/src/assets/casualImage/Frame 70.png",
+          "/src/assets/casualImage/Frame 70.png",
+          "/src/assets/casualImage/Frame 70.png",
+        ],
+      },
+      {
+        color: "#063AF5",
+        image: [
+          "/src/assets/casualImage/Frame 70.png",
+          "/src/assets/casualImage/Frame 70.png",
+          "/src/assets/casualImage/Frame 70.png",
+        ],
+      },
+      {
+        color: "#F5DD06",
+        image: [
+          "/src/assets/casualImage/Frame 70.png",
+          "/src/assets/casualImage/Frame 70.png",
+          "/src/assets/casualImage/Frame 70.png",
+        ],
+      }
+    ],
+    sizes: ["small", "medium", "large", "x-large"]
+  },
+  {
+    id: 309,
+    name: "Loose Fit Bermuda Shorts",
+    price: 80,
+    rating: 3.0,
+    gender: "male",
+    type: "shorts",
+    describtion: "Relaxed loose-fit denim Bermuda shorts, perfectly distressed for a vintage summer look.",
+    colors: [
+      {
+        color: "#3b82f6",
+        image: [
+          "/src/assets/casualImage/Frame 71-1.png",
+          "/src/assets/casualImage/Frame 71-1.png",
+          "/src/assets/casualImage/Frame 71-1.png",
+        ],
+      },
+      {
+        color: "#00C12B",
+        image: [
+          "/src/assets/casualImage/Frame 71-1.png",
+          "/src/assets/casualImage/Frame 71-1.png",
+          "/src/assets/casualImage/Frame 71-1.png",
+        ],
+      },
+      {
+        color: "#F57906",
+        image: [
+          "/src/assets/casualImage/Frame 71-1.png",
+          "/src/assets/casualImage/Frame 71-1.png",
+          "/src/assets/casualImage/Frame 71-1.png",
+        ],
+      },
+      {
+        color: "#000000",
+        image: [
+          "/src/assets/casualImage/Frame 71-1.png",
+          "/src/assets/casualImage/Frame 71-1.png",
+          "/src/assets/casualImage/Frame 71-1.png",
         ],
       }
     ],
@@ -451,5 +1083,6 @@ export const casualData = [
 export const allProducts = [
   ...newArrivalsData,
   ...topSellingData,
+  ...alsoLikeData,
   ...casualData
 ];
