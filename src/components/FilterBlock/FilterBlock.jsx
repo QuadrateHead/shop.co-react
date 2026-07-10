@@ -1,34 +1,27 @@
 import React from 'react'
 import "./FilterBlock.scss"
-const FilterBlock = ({selectedFilters, setSelectedFilters}) => {
-   const handleArrayFilterChange = (key, value) => {
-    setSelectedFilters(prev => {
-      const currentList = prev[key];
-      const newList = currentList.includes(value)
-        ? currentList.filter(item => item !== value) // Remove if already present
-        : [...currentList, value];                   // Add if missing
-      
-      return { ...prev, [key]: newList };
-    });
+const FilterBlock = ({ onChangeFilters,selectedFilters }) => {
+  const handleArrayFilterChange = (key, value) => {
+    const currentList = selectedFilters[key];
+    const newList = currentList.includes(value)
+      ? currentList.filter(item => item !== value) // Remove if already present
+      : [...currentList, value];                   // Add if missing
+
+    onChangeFilters({ [key]: newList });
   };
   // Helper function for simple strings (type or style)
   const handleStringFilterChange = (key, value) => {
-    setSelectedFilters(prev => ({
-      ...prev,
-      [key]: prev[key] === value ? "" : value // Toggle selection off if clicked again
-    }));
+    onChangeFilters({
+      [key]: selectedFilters[key] === value ? "" : value // Toggle selection off if clicked again
+    });
   };
   const handlePriceChange = (e, type) => {
     const value = parseInt(e.target.value, 10);
     const nextMin = type === "minPrice" ? value : selectedFilters.minPrice;
     const nextMax = type === "maxPrice" ? value : selectedFilters.maxPrice;
     if(nextMax - nextMin >= 100){
-      setSelectedFilters((prev) => ({
-        ...prev,
-        [type]: value,
-      }));
+      onChangeFilters({ [type]: value });
     }
-    
   };
   const filterCategories = [ "t-shirts", "shorts", "shirts", "hoodie", "jeans" ];
   const filterColors = [

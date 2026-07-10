@@ -17,7 +17,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#ffffff",
+        color: "#FFFFFF",
         image: [
           "/src/assets/newArrivalsImage/Frame 32.png",
           "/src/assets/newArrivalsImage/Frame 32.png",
@@ -147,7 +147,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#ffffff",
+        color: "#FFFFFF",
         image: [
           "/src/assets/newArrivalsImage/Frame 34.png",
           "/src/assets/newArrivalsImage/Frame 34.png",
@@ -177,7 +177,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#ffffff", // White
+        color: "#FFFFFF", // White
         image: [
           "/src/assets/newArrivalsImage/Frame 38.png",
           "/src/assets/newArrivalsImage/Frame 38.png",
@@ -320,7 +320,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#ffffff",
+        color: "#FFFFFF",
         image: [
           "/src/assets/topSellingImage/Frame 32.png",
           "/src/assets/topSellingImage/Frame 32.png",
@@ -547,7 +547,7 @@ export const alsoLikeData = [
     describtion: "A vibrant graphic tee featuring a unique color gradient design across the chest.",
     colors: [
       {
-        color: "#ffffff", // White base
+        color: "#FFFFFF", // White base
         image: [
           "/src/assets/topSellingImage/Frame 33.png",
           "/src/assets/topSellingImage/Frame 33.png",
@@ -615,7 +615,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#ffffff",
+        color: "#FFFFFF",
         image: [
           "/src/assets/topSellingImage/Frame 34.png",
           "/src/assets/topSellingImage/Frame 34.png",
@@ -684,7 +684,7 @@ export const casualData = [
     describtion: "A vibrant graphic tee featuring a unique color gradient design across the chest.",
     colors: [
       {
-        color: "#ffffff",
+        color: "#FFFFFF",
         image: [
           "/src/assets/casualImage/Frame 33.png",
           "/src/assets/casualImage/Frame 33.png",
@@ -798,7 +798,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#ffffff",
+        color: "#FFFFFF",
         image: [
           "/src/assets/casualImage/Frame 38.png",
           "/src/assets/casualImage/Frame 38.png",
@@ -972,7 +972,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#ffffff",
+        color: "#FFFFFF",
         image: [
           "/src/assets/casualImage/Frame 32.png",
           "/src/assets/casualImage/Frame 32.png",
