@@ -155,7 +155,7 @@ const ShopPage = () => {
       <PagePath />
       <div className="shop__container">
         <FilterBlock className = "shop__filter" onChangeFilters={updateFilters} selectedFilters={selectedFilters}></FilterBlock>
-        <ShopList className = "shop__shop-list" products={filteredProducts}></ShopList>
+        <ShopList className = "shop__shop-list"  selectedFilters = { selectedFilters } products={filteredProducts}></ShopList>
       </div>
     </div>
   );

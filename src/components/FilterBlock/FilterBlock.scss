@@ -199,6 +199,12 @@
    //!Solve style and functional of Price slider
    &__grid-price {
       padding: 4px 2px 0;
+      transition: all 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+      &.closed{
+         height: 0;
+         overflow: hidden;
+         transform: translateX(-100%);
+      }
    }
 
    &__price-track {
