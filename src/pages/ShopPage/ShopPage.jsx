@@ -9,19 +9,7 @@ import { allProducts, casualData } from "/src/data/productsData";
 const ShopPage = () => {
 
   const { category, id } = useParams();
-  const data = (id) =>{
-    //{id ? id : category}
-    if(!id){
-      return allProducts;
-    }else{
-      switch(id){
-        case "casual":
-          return casualData;
-        default:
-          return []
-      }
-    }
-  }
+  
 
   const [searchParams, setSearchParams] = useSearchParams();
   const selectedFilters = useMemo(() => {
@@ -33,6 +21,8 @@ const ShopPage = () => {
         style: searchParams.get('style') || "",
       };
   }, [ searchParams ]);
+  const data = allProducts;
+  
 
   const updateFilters = useCallback(
     (partialFilters) => {
@@ -67,7 +57,7 @@ const ShopPage = () => {
   );
 
   const filteredProducts = useMemo(() => {
-    return data(id).filter((product) => {
+    return data.filter((product) => {
       if (selectedFilters.type && product.type !== selectedFilters.type) {
         return false;
       }

@@ -6,6 +6,7 @@ export const newArrivalsData = [
     rating: 4.5,
     gender: "male",
     type: "t-shirts",
+    style: "casual",
     describtion: "A comfortable classic t-shirt featuring subtle tape details along the sleeves. Perfect for everyday casual wear.",
     colors: [
       {
@@ -17,7 +18,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#FFFFFF",
+        color: "#ffffff",
         image: [
           "/src/assets/newArrivalsImage/Frame 32.png",
           "/src/assets/newArrivalsImage/Frame 32.png",
@@ -25,7 +26,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#00C12B",
+        color: "#00c12b",
         image: [
           "/src/assets/newArrivalsImage/Frame 32.png",
           "/src/assets/newArrivalsImage/Frame 32.png",
@@ -33,7 +34,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#F50606",
+        color: "#f50606",
         image: [
           "/src/assets/newArrivalsImage/Frame 32.png",
           "/src/assets/newArrivalsImage/Frame 32.png",
@@ -41,7 +42,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#F5DD06",
+        color: "#f5dd06",
         image: [
           "/src/assets/newArrivalsImage/Frame 32.png",
           "/src/assets/newArrivalsImage/Frame 32.png",
@@ -60,6 +61,7 @@ export const newArrivalsData = [
     rating: 3.5,
     gender: "female",
     type: "jeans",
+    style: "casual",
     describtion: "Form-fitting skinny jeans crafted from stretch denim for maximum comfort and a flattering silhouette.",
     colors: [
       {
@@ -79,7 +81,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#F57906",
+        color: "#f57906",
         image: [
           "/src/assets/newArrivalsImage/Frame 33.png",
           "/src/assets/newArrivalsImage/Frame 33.png",
@@ -87,7 +89,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#06CAF5",
+        color: "#06caf5",
         image: [
           "/src/assets/newArrivalsImage/Frame 33.png",
           "/src/assets/newArrivalsImage/Frame 33.png",
@@ -95,7 +97,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#F506A4",
+        color: "#f506a4",
         image: [
           "/src/assets/newArrivalsImage/Frame 33.png",
           "/src/assets/newArrivalsImage/Frame 33.png",
@@ -112,6 +114,7 @@ export const newArrivalsData = [
     rating: 4.5,
     gender: "male",
     type: "shirts",
+    style: "formal",
     describtion: "A classic checkered button-down shirt. Breathable and versatile for both casual and smart-casual occasions.",
     colors: [
       {
@@ -131,7 +134,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#F5DD06",
+        color: "#f5dd06",
         image: [
           "/src/assets/newArrivalsImage/Frame 34.png",
           "/src/assets/newArrivalsImage/Frame 34.png",
@@ -139,7 +142,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#7D06F5",
+        color: "#7d06f5",
         image: [
           "/src/assets/newArrivalsImage/Frame 34.png",
           "/src/assets/newArrivalsImage/Frame 34.png",
@@ -147,7 +150,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#FFFFFF",
+        color: "#ffffff",
         image: [
           "/src/assets/newArrivalsImage/Frame 34.png",
           "/src/assets/newArrivalsImage/Frame 34.png",
@@ -166,6 +169,7 @@ export const newArrivalsData = [
     rating: 3.5,
     gender: "male",
     type: "t-shirts",
+    style: "gym",
     describtion: "Sporty and stylish, this t-shirt features contrasting sleeve stripes and a relaxed fit.",
     colors: [
       {
@@ -177,7 +181,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#FFFFFF", // White
+        color: "#ffffff", // White
         image: [
           "/src/assets/newArrivalsImage/Frame 38.png",
           "/src/assets/newArrivalsImage/Frame 38.png",
@@ -185,7 +189,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#00C12B",
+        color: "#00c12b",
         image: [
           "/src/assets/newArrivalsImage/Frame 38.png",
           "/src/assets/newArrivalsImage/Frame 38.png",
@@ -193,7 +197,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#063AF5",
+        color: "#063af5",
         image: [
           "/src/assets/newArrivalsImage/Frame 38.png",
           "/src/assets/newArrivalsImage/Frame 38.png",
@@ -201,7 +205,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#F506A4",
+        color: "#f506a4",
         image: [
           "/src/assets/newArrivalsImage/Frame 38.png",
           "/src/assets/newArrivalsImage/Frame 38.png",
@@ -220,6 +224,7 @@ export const newArrivalsData = [
     rating: 4.5,
     gender: "male",
     type: "t-shirts",
+    style: "casual",
     describtion: "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
     colors: [
       {
@@ -247,7 +252,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#F50606",
+        color: "#f50606",
         image: [
           "/src/assets/newArrivalsImage/id5/image 2.png",
           "/src/assets/newArrivalsImage/id5/image 5.png",
@@ -255,7 +260,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#06CAF5",
+        color: "#06caf5",
         image: [
           "/src/assets/newArrivalsImage/id5/image 2.png",
           "/src/assets/newArrivalsImage/id5/image 5.png",
@@ -263,7 +268,7 @@ export const newArrivalsData = [
         ],
       },
       {
-        color: "#F5DD06",
+        color: "#f5dd06",
         image: [
           "/src/assets/newArrivalsImage/id5/image 2.png",
           "/src/assets/newArrivalsImage/id5/image 5.png",
@@ -285,6 +290,7 @@ export const topSellingData = [
     rating: 5.0,
     gender: "male",
     type: "shirts",
+    style: "formal",
     describtion: "Elevate your look with this vertical striped button-up. Designed to provide a slimming effect and all-day comfort.",
     colors: [
       {
@@ -304,7 +310,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#F57906",
+        color: "#f57906",
         image: [
           "/src/assets/topSellingImage/Frame 32.png",
           "/src/assets/topSellingImage/Frame 32.png",
@@ -312,7 +318,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#F506A4",
+        color: "#f506a4",
         image: [
           "/src/assets/topSellingImage/Frame 32.png",
           "/src/assets/topSellingImage/Frame 32.png",
@@ -320,7 +326,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#FFFFFF",
+        color: "#ffffff",
         image: [
           "/src/assets/topSellingImage/Frame 32.png",
           "/src/assets/topSellingImage/Frame 32.png",
@@ -337,6 +343,7 @@ export const topSellingData = [
     rating: 4.0,
     gender: "male",
     type: "t-shirts",
+    style: "casual",
     describtion: "Stand out with this bold graphic tee. Made from premium cotton blends for a soft touch.",
     colors: [
       {
@@ -356,7 +363,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#00C12B",
+        color: "#00c12b",
         image: [
           "/src/assets/topSellingImage/Frame 33.png",
           "/src/assets/topSellingImage/Frame 33.png",
@@ -364,7 +371,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#06CAF5",
+        color: "#06caf5",
         image: [
           "/src/assets/topSellingImage/Frame 33.png",
           "/src/assets/topSellingImage/Frame 33.png",
@@ -372,7 +379,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#7D06F5",
+        color: "#7d06f5",
         image: [
           "/src/assets/topSellingImage/Frame 33.png",
           "/src/assets/topSellingImage/Frame 33.png",
@@ -391,6 +398,7 @@ export const topSellingData = [
     rating: 3.0,
     gender: "male",
     type: "shorts",
+    style: "casual",
     describtion: "Relaxed loose-fit denim Bermuda shorts, perfectly distressed for a vintage summer look.",
     colors: [
       {
@@ -410,7 +418,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#F5DD06",
+        color: "#f5dd06",
         image: [
           "/src/assets/topSellingImage/Frame 34.png",
           "/src/assets/topSellingImage/Frame 34.png",
@@ -418,7 +426,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#F50606",
+        color: "#f50606",
         image: [
           "/src/assets/topSellingImage/Frame 34.png",
           "/src/assets/topSellingImage/Frame 34.png",
@@ -443,6 +451,7 @@ export const topSellingData = [
     rating: 4.5,
     gender: "male",
     type: "jeans",
+    style: "casual",
     describtion: "Modern skinny jeans with a faded wash treatment. Built with stretch materials for ease of movement.",
     colors: [
       {
@@ -462,7 +471,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#00C12B",
+        color: "#00c12b",
         image: [
           "/src/assets/topSellingImage/Frame 38.png",
           "/src/assets/topSellingImage/Frame 38.png",
@@ -470,7 +479,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#F57906",
+        color: "#f57906",
         image: [
           "/src/assets/topSellingImage/Frame 38.png",
           "/src/assets/topSellingImage/Frame 38.png",
@@ -478,7 +487,7 @@ export const topSellingData = [
         ],
       },
       {
-        color: "#F506A4",
+        color: "#f506a4",
         image: [
           "/src/assets/topSellingImage/Frame 38.png",
           "/src/assets/topSellingImage/Frame 38.png",
@@ -500,6 +509,7 @@ export const alsoLikeData = [
     rating: 4.0,
     gender: "male",
     type: "polos",
+    style: "party",
     describtion: "A refined polo shirt featuring sharp contrast trims on the collar and cuffs.",
     colors: [
       {
@@ -511,7 +521,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#F50606",
+        color: "#f50606",
         image: [
           "/src/assets/topSellingImage/Frame 32.png",
           "/src/assets/topSellingImage/Frame 32.png",
@@ -519,7 +529,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#F5DD06",
+        color: "#f5dd06",
         image: [
           "/src/assets/topSellingImage/Frame 32.png",
           "/src/assets/topSellingImage/Frame 32.png",
@@ -544,10 +554,11 @@ export const alsoLikeData = [
     rating: 3.5,
     gender: "male",
     type: "t-shirts",
+    style: "casual",
     describtion: "A vibrant graphic tee featuring a unique color gradient design across the chest.",
     colors: [
       {
-        color: "#FFFFFF", // White base
+        color: "#ffffff", // White base
         image: [
           "/src/assets/topSellingImage/Frame 33.png",
           "/src/assets/topSellingImage/Frame 33.png",
@@ -555,7 +566,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#00C12B",
+        color: "#00c12b",
         image: [
           "/src/assets/topSellingImage/Frame 33.png",
           "/src/assets/topSellingImage/Frame 33.png",
@@ -563,7 +574,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#7D06F5",
+        color: "#7d06f5",
         image: [
           "/src/assets/topSellingImage/Frame 33.png",
           "/src/assets/topSellingImage/Frame 33.png",
@@ -571,7 +582,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#F57906",
+        color: "#f57906",
         image: [
           "/src/assets/topSellingImage/Frame 33.png",
           "/src/assets/topSellingImage/Frame 33.png",
@@ -588,6 +599,7 @@ export const alsoLikeData = [
     rating: 4.5,
     gender: "male",
     type: "polos",
+    style: "party",
     describtion: "Upgrade your casual wardrobe with this textured polo featuring elegant tipping details.",
     colors: [
       {
@@ -599,7 +611,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#06CAF5",
+        color: "#06caf5",
         image: [
           "/src/assets/topSellingImage/Frame 34.png",
           "/src/assets/topSellingImage/Frame 34.png",
@@ -607,7 +619,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#063AF5",
+        color: "#063af5",
         image: [
           "/src/assets/topSellingImage/Frame 34.png",
           "/src/assets/topSellingImage/Frame 34.png",
@@ -615,7 +627,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#FFFFFF",
+        color: "#ffffff",
         image: [
           "/src/assets/topSellingImage/Frame 34.png",
           "/src/assets/topSellingImage/Frame 34.png",
@@ -634,6 +646,7 @@ export const alsoLikeData = [
     rating: 5.0,
     gender: "male",
     type: "t-shirts",
+    style: "gym",
     describtion: "A sleek black-and-white striped t-shirt with raglan sleeves for a modern profile.",
     colors: [
       {
@@ -645,7 +658,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#F5DD06",
+        color: "#f5dd06",
         image: [
           "/src/assets/topSellingImage/Frame 38.png",
           "/src/assets/topSellingImage/Frame 38.png",
@@ -653,7 +666,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#F506A4",
+        color: "#f506a4",
         image: [
           "/src/assets/topSellingImage/Frame 38.png",
           "/src/assets/topSellingImage/Frame 38.png",
@@ -661,7 +674,7 @@ export const alsoLikeData = [
         ],
       },
       {
-        color: "#00C12B",
+        color: "#00c12b",
         image: [
           "/src/assets/topSellingImage/Frame 38.png",
           "/src/assets/topSellingImage/Frame 38.png",
@@ -681,10 +694,11 @@ export const casualData = [
     rating: 3.5,
     gender: "male",
     type: "t-shirts",
+    style: "casual",
     describtion: "A vibrant graphic tee featuring a unique color gradient design across the chest.",
     colors: [
       {
-        color: "#FFFFFF",
+        color: "#ffffff",
         image: [
           "/src/assets/casualImage/Frame 33.png",
           "/src/assets/casualImage/Frame 33.png",
@@ -692,7 +706,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F50606",
+        color: "#f50606",
         image: [
           "/src/assets/casualImage/Frame 33.png",
           "/src/assets/casualImage/Frame 33.png",
@@ -700,7 +714,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#063AF5",
+        color: "#063af5",
         image: [
           "/src/assets/casualImage/Frame 33.png",
           "/src/assets/casualImage/Frame 33.png",
@@ -708,7 +722,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F57906",
+        color: "#f57906",
         image: [
           "/src/assets/casualImage/Frame 33.png",
           "/src/assets/casualImage/Frame 33.png",
@@ -725,6 +739,7 @@ export const casualData = [
     rating: 4.5,
     gender: "male",
     type: "polos",
+    style: "casual",
     describtion: "Upgrade your casual wardrobe with this textured polo featuring elegant tipping details.",
     colors: [
       {
@@ -736,7 +751,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#00C12B",
+        color: "#00c12b",
         image: [
           "/src/assets/casualImage/Frame 34.png",
           "/src/assets/casualImage/Frame 34.png",
@@ -744,7 +759,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#06CAF5",
+        color: "#06caf5",
         image: [
           "/src/assets/casualImage/Frame 34.png",
           "/src/assets/casualImage/Frame 34.png",
@@ -771,6 +786,7 @@ export const casualData = [
     rating: 5.0,
     gender: "male",
     type: "t-shirts",
+    style: "casual",
     describtion: "A sleek black-and-white striped t-shirt with raglan sleeves for a modern profile.",
     colors: [
       {
@@ -782,7 +798,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F5DD06",
+        color: "#f5dd06",
         image: [
           "/src/assets/casualImage/Frame 38.png",
           "/src/assets/casualImage/Frame 38.png",
@@ -790,7 +806,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#7D06F5",
+        color: "#7d06f5",
         image: [
           "/src/assets/casualImage/Frame 38.png",
           "/src/assets/casualImage/Frame 38.png",
@@ -798,7 +814,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#FFFFFF",
+        color: "#ffffff",
         image: [
           "/src/assets/casualImage/Frame 38.png",
           "/src/assets/casualImage/Frame 38.png",
@@ -817,6 +833,7 @@ export const casualData = [
     rating: 3.5,
     gender: "female",
     type: "jeans",
+    style: "casual",
     describtion: "Form-fitting skinny jeans crafted from stretch denim for maximum comfort and a flattering silhouette.",
     colors: [
       {
@@ -828,7 +845,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F57906",
+        color: "#f57906",
         image: [
           "/src/assets/casualImage/Frame 71.png",
           "/src/assets/casualImage/Frame 71.png",
@@ -836,7 +853,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F506A4",
+        color: "#f506a4",
         image: [
           "/src/assets/casualImage/Frame 71.png",
           "/src/assets/casualImage/Frame 71.png",
@@ -844,7 +861,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F50606",
+        color: "#f50606",
         image: [
           "/src/assets/casualImage/Frame 71.png",
           "/src/assets/casualImage/Frame 71.png",
@@ -861,6 +878,7 @@ export const casualData = [
     rating: 4.5,
     gender: "male",
     type: "shirts",
+    style: "casual",
     describtion: "A classic checkered button-down shirt. Breathable and versatile for both casual and smart-casual occasions.",
     colors: [
       {
@@ -872,7 +890,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#063AF5",
+        color: "#063af5",
         image: [
           "/src/assets/casualImage/Frame 72.png",
           "/src/assets/casualImage/Frame 72.png",
@@ -880,7 +898,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F5DD06",
+        color: "#f5dd06",
         image: [
           "/src/assets/casualImage/Frame 72.png",
           "/src/assets/casualImage/Frame 72.png",
@@ -888,7 +906,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#06CAF5",
+        color: "#06caf5",
         image: [
           "/src/assets/casualImage/Frame 72.png",
           "/src/assets/casualImage/Frame 72.png",
@@ -907,6 +925,7 @@ export const casualData = [
     rating: 3.5,
     gender: "male",
     type: "t-shirts",
+    style: "casual",
     describtion: "Sporty and stylish, this t-shirt features contrasting sleeve stripes and a relaxed fit.",
     colors: [
       {
@@ -918,7 +937,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#00C12B",
+        color: "#00c12b",
         image: [
           "/src/assets/casualImage/Frame 73.png",
           "/src/assets/casualImage/Frame 73.png",
@@ -926,7 +945,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#7D06F5",
+        color: "#7d06f5",
         image: [
           "/src/assets/casualImage/Frame 73.png",
           "/src/assets/casualImage/Frame 73.png",
@@ -953,6 +972,7 @@ export const casualData = [
     rating: 5.0,
     gender: "male",
     type: "shirts",
+    style: "casual",
     describtion: "Elevate your look with this vertical striped button-up. Designed to provide a slimming effect and all-day comfort.",
     colors: [
       {
@@ -964,7 +984,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F506A4",
+        color: "#f506a4",
         image: [
           "/src/assets/casualImage/Frame 32.png",
           "/src/assets/casualImage/Frame 32.png",
@@ -972,7 +992,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#FFFFFF",
+        color: "#ffffff",
         image: [
           "/src/assets/casualImage/Frame 32.png",
           "/src/assets/casualImage/Frame 32.png",
@@ -980,7 +1000,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F50606",
+        color: "#f50606",
         image: [
           "/src/assets/casualImage/Frame 32.png",
           "/src/assets/casualImage/Frame 32.png",
@@ -997,6 +1017,7 @@ export const casualData = [
     rating: 4.0,
     gender: "male",
     type: "t-shirts",
+    style: "casual",
     describtion: "Stand out with this bold graphic tee. Made from premium cotton blends for a soft touch.",
     colors: [
       {
@@ -1008,7 +1029,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#06CAF5",
+        color: "#06caf5",
         image: [
           "/src/assets/casualImage/Frame 70.png",
           "/src/assets/casualImage/Frame 70.png",
@@ -1016,7 +1037,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#063AF5",
+        color: "#063af5",
         image: [
           "/src/assets/casualImage/Frame 70.png",
           "/src/assets/casualImage/Frame 70.png",
@@ -1024,7 +1045,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F5DD06",
+        color: "#f5dd06",
         image: [
           "/src/assets/casualImage/Frame 70.png",
           "/src/assets/casualImage/Frame 70.png",
@@ -1041,6 +1062,7 @@ export const casualData = [
     rating: 3.0,
     gender: "male",
     type: "shorts",
+    style: "casual",
     describtion: "Relaxed loose-fit denim Bermuda shorts, perfectly distressed for a vintage summer look.",
     colors: [
       {
@@ -1052,7 +1074,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#00C12B",
+        color: "#00c12b",
         image: [
           "/src/assets/casualImage/Frame 71-1.png",
           "/src/assets/casualImage/Frame 71-1.png",
@@ -1060,7 +1082,7 @@ export const casualData = [
         ],
       },
       {
-        color: "#F57906",
+        color: "#f57906",
         image: [
           "/src/assets/casualImage/Frame 71-1.png",
           "/src/assets/casualImage/Frame 71-1.png",
