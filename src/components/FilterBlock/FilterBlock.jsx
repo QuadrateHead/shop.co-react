@@ -162,14 +162,14 @@ const FilterBlock = ({ onChangeFilters, selectedFilters }) => {
               <input
                 type="range"
                 min="0"
-                max="400"
+                max="500"
                 value={selectedFilters.minPrice}
                 onChange={(e) => handlePriceChange(e, "minPrice")}
                 className="filter__price-thumb filter__price-thumb--left"
               />
               <input
                 type="range"
-                min="100"
+                min="0"
                 max="500"
                 value={selectedFilters.maxPrice}
                 onChange={(e) => handlePriceChange(e, "maxPrice")}
