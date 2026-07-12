@@ -10,7 +10,6 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     const updateShowAround = () => {
       setShowAround(window.innerWidth <= 400 ? 0 : 1);
     };
-
     updateShowAround(); // run once on mount
     window.addEventListener("resize", updateShowAround);
     return () => window.removeEventListener("resize", updateShowAround);

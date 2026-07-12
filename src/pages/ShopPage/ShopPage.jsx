@@ -1,6 +1,6 @@
 import React from "react";
 import PagePath from "../../components/PagePath/PagePath";
-import { useState, useMemo, useCallback } from "react";
+import { useState, useMemo, useCallback, useEffect } from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 import ShopList from "../../components/ShopList/ShopList";
 import FilterBlock from "../../components/FilterBlock/FilterBlock";
@@ -10,7 +10,6 @@ const ShopPage = () => {
 
   const { category, id } = useParams();
   
-
   const [searchParams, setSearchParams] = useSearchParams();
   const selectedFilters = useMemo(() => {
     return { type: searchParams.get('type') || '',
@@ -23,7 +22,6 @@ const ShopPage = () => {
   }, [ searchParams ]);
   const data = allProducts;
   
-
   const updateFilters = useCallback(
     (partialFilters) => {
       setSearchParams((prevParams) => {
@@ -90,6 +88,10 @@ const ShopPage = () => {
       });
   }, [ id, data, selectedFilters]);
 
+  const [openFilter, setOpenFilter] = useState(false)
+  const openFilterBlock = () =>{
+    openFilter ? setOpenFilter(false) : setOpenFilter(true)
+  }
   /*const [selectedFilters, setSelectedFilters] = useState({
     type: "", // e.g., "t-shirt", "shorts" (Matches your `type` key)
     minPrice: 0,
@@ -142,12 +144,28 @@ const ShopPage = () => {
     return true;
   });*/
 
+  useEffect(() => {
+    const updateOpen = () => {
+      if (openFilter && window.innerWidth <= 1070) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "";
+      }
+    }
+    
+    // cleanup: always restore scroll if component unmounts while open
+    window.addEventListener("resize", updateOpen);
+    return () => {
+      window.removeEventListener("resize", updateOpen);
+      document.body.style.overflow = "";
+    };
+  }, [openFilter]);
   return (
     <div className="shop">
       <PagePath stylePath = { selectedFilters } />
       <div className="shop__container">
-        <FilterBlock className = "shop__filter" onChangeFilters={updateFilters} selectedFilters={selectedFilters}></FilterBlock>
-        <ShopList className = "shop__shop-list"  selectedFilters = { selectedFilters } products={filteredProducts}></ShopList>
+        <FilterBlock className = "shop__filter" openFilter={openFilter} setOpenFilter={setOpenFilter} onChangeFilters={updateFilters} selectedFilters={selectedFilters}></FilterBlock>
+        <ShopList className = "shop__shop-list" openFilterBlock={openFilterBlock} selectedFilters = { selectedFilters } products={filteredProducts}></ShopList>
       </div>
     </div>
   );
