@@ -168,6 +168,9 @@
 				transform: scale(1.05);
 				transition: transform 0.1s linear 0s;
 			}
+			&.white{
+				border: 1px solid rgba(0, 0, 0, 0.4);
+			}
 		}
 		&__choice{
 			aspect-ratio: 1 / 1;
