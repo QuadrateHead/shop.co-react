@@ -1106,5 +1106,9 @@ export const allProducts = [
   ...newArrivalsData,
   ...topSellingData,
   ...alsoLikeData,
+  ...casualData,
+  ...newArrivalsData,
+  ...topSellingData,
+  ...alsoLikeData,
   ...casualData
 ];

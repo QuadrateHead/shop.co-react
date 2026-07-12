@@ -144,15 +144,7 @@ const ShopPage = () => {
 
   return (
     <div className="shop">
-      <div
-        style={{
-          width: "100%",
-          height: "0px",
-          border: "1px solid rgba(0, 0, 0, 0.1)",
-          marginBottom: "2rem",
-        }}
-      ></div>
-      <PagePath />
+      <PagePath stylePath = { selectedFilters } />
       <div className="shop__container">
         <FilterBlock className = "shop__filter" onChangeFilters={updateFilters} selectedFilters={selectedFilters}></FilterBlock>
         <ShopList className = "shop__shop-list"  selectedFilters = { selectedFilters } products={filteredProducts}></ShopList>

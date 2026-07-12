@@ -1,10 +1,18 @@
 @use "../../styles/scss/tools/function" as *;
 @use "../../styles/scss/tools/mixins" as *;
-
+.pagepath{
+   @include coloumn(24);
+   @media (max-width: 768px){
+      @include coloumn(20);
+   }
+}
 .path{
    @include align-center;
       gap: toRem(12);
       margin-bottom: toRem(24);
+      @media (max-width: 768px){
+         margin-bottom: toRem(12);
+      }
 }
 .category{
    @include align-center;
