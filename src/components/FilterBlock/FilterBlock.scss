@@ -207,13 +207,11 @@
          transform: translateX(-100%);
       }
    }
-
    &__price-track {
       position: relative;
       height: toRem(20);
       margin-bottom: toRem(8);
    }
-
    &__price-fill,
    &__price-track::before {
       position: absolute;
@@ -364,7 +362,6 @@
          display: flex;
          flex-wrap: wrap;
          & button{
-            aspect-ratio: 1 / 1;
             width: toRem(37);
             height: toRem(37);
          }

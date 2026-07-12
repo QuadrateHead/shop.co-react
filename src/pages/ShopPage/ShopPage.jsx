@@ -152,7 +152,7 @@ const ShopPage = () => {
         document.body.style.overflow = "";
       }
     }
-    
+    updateOpen();
     // cleanup: always restore scroll if component unmounts while open
     window.addEventListener("resize", updateOpen);
     return () => {
