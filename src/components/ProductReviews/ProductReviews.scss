@@ -2,32 +2,83 @@
 @use "/src/styles/scss/tools/mixins" as *;
 @use "/src/styles/scss/base/typography" as *;
 .prdctreviews {
-
+   @include coloumn(0);
+   justify-content: center;
 		&__header {
+         @include align-center;
+         justify-content: space-between;
+         padding: toRem(24) 0;
 		}
 
 		&__allreviews {
+         display: flex;
+         align-items: flex-end;
+         gap: toRem(8);
 		}
 
 		&__allreviews-heading {
+         font-family: var(--font-family);
+         font-weight: 700;
+         font-size: toRem(24);
+         color: #000;
 		}
 
 		&__allreviews-count {
 		}
 
 		&__conf {
+         display: flex;
+         gap: toRem(10);
 		}
 
 		&__filter {
+         @include center;
+         border-radius: toRem(62);
+         width: toRem(48);
+         height: toRem(48);
+         background: #f0f0f0;
 		}
 
+      &__sort{
+         appearance: none;
+         border-radius: toRem(62);
+         background: #f0f0f0;
+         padding: toRem(13) toRem(20);
+
+         font-family: var(--font-family);
+         font-weight: 500;
+         font-size: toRem(16);
+         color: #000;
+         cursor: pointer;
+
+         background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.5306 6.53061L8.5306 11.5306C8.46092 11.6005 8.37813 11.656 8.28696 11.6939C8.1958 11.7317 8.09806 11.7512 7.99935 11.7512C7.90064 11.7512 7.8029 11.7317 7.71173 11.6939C7.62057 11.656 7.53778 11.6005 7.4681 11.5306L2.4681 6.53061C2.3272 6.38972 2.24805 6.19862 2.24805 5.99936C2.24805 5.80011 2.3272 5.60901 2.4681 5.46811C2.60899 5.32722 2.80009 5.24806 2.99935 5.24806C3.19861 5.24806 3.3897 5.32722 3.5306 5.46811L7.99997 9.93749L12.4693 5.46749C12.6102 5.32659 12.8013 5.24744 13.0006 5.24744C13.1999 5.24744 13.391 5.32659 13.5318 5.46749C13.6727 5.60838 13.7519 5.79948 13.7519 5.99874C13.7519 6.198 13.6727 6.38909 13.5318 6.52999L13.5306 6.53061Z' fill='black'/%3E%3C/svg%3E");
+         background-repeat: no-repeat;
+         background-position: right 12px center;
+         background-size: 16px 16px;
+         & option{
+            background: #f0f0f0;
+            padding: toRem(13) toRem(20);
+
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: toRem(16);
+            color: #000;
+         }
+      }
+
 		&__write-btn {
+         font-family: var(--font-family);
+         font-weight: 500;
+         font-size: toRem(16);
+         color: #fff;
+
+         padding: toRem(13) toRem(29.5);
 		}
 
 		&__grid {
          display: grid;
          grid-template-columns: 1fr 1fr;
-         grid-auto-rows: toRem(241.58);
+         grid-auto-rows: 1fr;
          gap: toRem(20);
 		}
 
@@ -44,7 +95,7 @@
          }
 		}
 
-      &__header{
+      &__review-header{
          @include align-center;
          justify-content: space-between;
          margin-bottom: toRem(15);
@@ -81,7 +132,32 @@
 		}
 
 		&__date {
+         margin-top: toRem(24);
          font-weight: 500 !important;
 		}
+
+      &__load-more{
+         border: 1px solid rgba(0, 0, 0, 0.1);
+         border-radius: toRem(62);
+         padding: toRem(15) toRem(45);
+
+         font-family: var(--font-family);
+         font-weight: 500;
+         font-size: toRem(16);
+         color: #000;
+
+         margin-inline: auto;
+         margin-top: toRem(51.42);
+         
+      }
+      @media(max-width: 1024px){
+         &__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-auto-rows: 1fr;
+
+            gap: toRem(20);
+         }
+      }
 }
 
