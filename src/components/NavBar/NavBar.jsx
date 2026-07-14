@@ -64,7 +64,7 @@ const NavBar = () => {
           />
         </form>
         <div className={styles.btn}>
-          <button className={styles.btn__icon}>
+          <Link to={"/cart"} className={styles.btn__icon}>
             <svg
               width="24"
               height="24"
@@ -77,7 +77,7 @@ const NavBar = () => {
                 fill="black"
               />
             </svg>
-          </button>
+          </Link>
           <button className={styles.btn__icon}>
             <svg
               width="24"

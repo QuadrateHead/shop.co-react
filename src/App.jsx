@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import ProductPage from "./pages/ProductPage/ProductPage";
 import ShopPage from "./pages/ShopPage/ShopPage";
 import { allProducts, casualData } from "/src/data/productsData";
+import CartPage from "./pages/CartPage/CartPage";
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
          <Route path = "*" element={<NotFound />} />
          <Route path = "/product/:id" element={<ProductPage />} />
          <Route path = "/:category" element={<ShopPage/>} />
+         <Route path = "/cart" element={<CartPage/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

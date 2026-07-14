@@ -2,8 +2,13 @@ import React from "react";
 import ProductCard from "../../elements/ProductCard/ProductCard";
 import styles from "../../elements/ProductCard/ProductCard.module.scss";
 import "./Product.scss";
+import { addToCart } from "../../utils/cartStorage";
+import { useCart } from "../../hooks/useCart";
 import { useState } from "react";
 const Product = ({ product }) => {
+
+  const { addToCart } = useCart();
+
   const [currentColor, setCurrentColor] = useState(0);
   const [currentSize, setCurrentSize] = useState("medium");
   const [currentImage, setCurrentImage] = useState(
@@ -51,6 +56,13 @@ const Product = ({ product }) => {
     }
     return stars;
   };
+  const handleAddToCart = () => {
+    addToCart(product, {
+      color: product.colors[currentColor],
+      size: currentSize,
+      amount: currentAmount,
+    });
+  }
   return (
     <div className="product">
       <div className="product__images">
@@ -181,7 +193,7 @@ const Product = ({ product }) => {
         <div className="product__slash"></div>
         <div className="product__add-to-cart">
           <div className="product__amount">
-            <button className="product__amount-change" onClick={currentAmount >= 1 ? () => setCurrentAmount(currentAmount - 1) : setCurrentAmount(1)}>
+            <button className="product__amount-change" onClick={() => setCurrentAmount((prev) => Math.max(prev - 1, 1))}>
               <svg
                 width="24"
                 height="24"
@@ -211,7 +223,7 @@ const Product = ({ product }) => {
               </svg>
             </button>
           </div>
-          <button type="submit" className="product__cart-submit blackBtn"><p className="p-16">Add to Cart</p></button>
+          <button onClick={handleAddToCart} type="submit" className="product__cart-submit blackBtn"><p className="p-16">Add to Cart</p></button>
         </div>
       </div>
     </div>

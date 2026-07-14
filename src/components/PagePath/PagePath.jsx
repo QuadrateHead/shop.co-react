@@ -32,6 +32,9 @@ const PagePath = ({stylePath}) => {
             </svg>
           </span>
           <span className={styles.category}>
+            {!category && <Link className="p-16" to={`/cart`}>
+              Cart
+            </Link>}
             <Link className="p-16" to={`/${category}`}>
               {stylePath.style ? stylePath.style : category}
             </Link>
