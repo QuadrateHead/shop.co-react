@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from 'react'
 import { useLocation, useParams, Link } from "react-router-dom";
 import { allProducts, alsoLikeData } from "../../data/productsData";
+import { product5Review } from '../../data/productReviewsData';
 import ProductList from "../../components/ProductList/ProductList";
 import Product from "../../components/Product/Product";
 import ProductReviews from "../../components/ProductReviews/ProductReviews";
@@ -102,7 +103,7 @@ const ProductPage = () => {
         </div>
         <div className="tab-content">
           {activeTab === "product-details" && <ProductDetails />}
-          {activeTab === "reviews" && <ProductReviews />}
+          {activeTab === "reviews" && <ProductReviews reviews={product5Review}/>}
           {activeTab === "faqs" && <FAQsSection />}
         </div>
       </div>
