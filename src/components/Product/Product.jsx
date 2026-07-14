@@ -4,7 +4,7 @@ import styles from "../../elements/ProductCard/ProductCard.module.scss";
 import "./Product.scss";
 import { addToCart } from "../../utils/cartStorage";
 import { useCart } from "../../hooks/useCart";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 const Product = ({ product }) => {
 
   const { addToCart } = useCart();
@@ -14,6 +14,11 @@ const Product = ({ product }) => {
   const [currentImage, setCurrentImage] = useState(
     product.colors[currentColor].image[0],
   );
+
+  const [buttonText, setButtonText] = useState("Add to Cart");
+  const timeoutRef = useRef(null);
+
+
   const [currentAmount, setCurrentAmount] = useState(1);
   const renderStars = (rating) => {
     const stars = [];
@@ -62,7 +67,19 @@ const Product = ({ product }) => {
       size: currentSize,
       amount: currentAmount,
     });
-  }
+    setButtonText("Thanks!");
+
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+
+    timeoutRef.current = setTimeout(() => {
+      setButtonText("Add to Cart");
+    }, 300);
+  };
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
+  }, []);
   return (
     <div className="product">
       <div className="product__images">
@@ -223,7 +240,7 @@ const Product = ({ product }) => {
               </svg>
             </button>
           </div>
-          <button onClick={handleAddToCart} type="submit" className="product__cart-submit blackBtn"><p className="p-16">Add to Cart</p></button>
+          <button onClick={handleAddToCart} type="submit" className="product__cart-submit blackBtn"><p className="p-16">{buttonText}</p></button>
         </div>
       </div>
     </div>
