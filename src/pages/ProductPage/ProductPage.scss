@@ -30,6 +30,8 @@
    }
    &__tab-nav{
       @include align-center;
+      width: 100%;
+      flex-wrap: wrap;
    }
    &__section{
       flex: 1 1 0;
@@ -42,6 +44,7 @@
       text-align: center;
       line-height: 110%;
       color: rgba(0, 0, 0, 0.6);
+      white-space: nowrap;
       transition: all 0.1s linear 0s;
       &.active{
          border-bottom: 2px solid #000;
@@ -49,6 +52,12 @@
          font-weight: 500;
          color: #000;
          transition: all 0.1s linear 0s;
+      }
+      @media (max-width: 768px){
+         font-size: toRem(16);
+         padding-bottom: toRem(20);
+         padding: toRem(12) toRem(16);
+         
       }
    }
    
