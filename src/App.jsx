@@ -11,7 +11,7 @@ import { allProducts, casualData } from "/src/data/productsData";
 import CartPage from "./pages/CartPage/CartPage";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <TopBar/>
       <NavBar/>
       <Routes>

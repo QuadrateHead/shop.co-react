@@ -1,4 +1,5 @@
 import React from "react";
+import { getImageUrl } from "../../utils/getImageUrl";
 import styles from "./ProductCard.module.scss";
 import { Link } from "react-router-dom";
 const ProductCard = ({ product, hover }) => {
@@ -52,7 +53,7 @@ const ProductCard = ({ product, hover }) => {
     >
       <div className={styles.imageContainer}>
         <img
-          src={product.colors[0].image[0]}
+          src={getImageUrl(product.colors[0].image[0])}
           alt={product.name}
           className={`${styles.image} ${hover == "right" ? styles.right : styles.left}`}
         />

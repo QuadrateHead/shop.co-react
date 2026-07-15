@@ -2,6 +2,7 @@ import React from "react";
 import { useCart } from "../../hooks/useCart";
 import PagePath from "../../components/PagePath/PagePath"
 import OrderSummary from "../../components/OrderSummary/OrderSummary";
+import { getImageUrl } from "../../utils/getImageUrl";
 import "./CartPage.scss";
 
 const CartPage = () => {
@@ -26,7 +27,7 @@ const CartPage = () => {
             <>
               <div key={`${item.id}-${index}`} className="cart-item">
                 <div className="cart-item__image">
-                   <img src={item.color.image[0]} alt={item.name} />
+                   <img src={getImageUrl(item.color.image[0])} alt={item.name} />
                 </div>
                 <div className="cart-item__content">
                   <div className="cart-item__header">

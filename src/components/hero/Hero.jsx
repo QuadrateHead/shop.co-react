@@ -1,4 +1,5 @@
 import React from 'react'
+import { getImageUrl } from '../../utils/getImageUrl'
 import "./Hero.scss"
 const Hero = () => {
   return (
@@ -33,9 +34,9 @@ const Hero = () => {
          </div>
       </div>
       <div className="hero__bg">
-         <img src = "/assets/hero/heroImg.jpg" alt='Photo' className="hero__sideimg" />
-         <img src = "/assets/hero/Vector.svg" alt="" className="hero__icon" />
-         <img src = "/assets/hero/Vector-1.svg" alt="" className="hero__icon1" />
+         <img src = {getImageUrl("/assets/hero/heroImg.jpg")} alt='Photo' className="hero__sideimg" />
+         <img src = {getImageUrl("/assets/hero/Vector.svg")} alt="" className="hero__icon" />
+         <img src = {getImageUrl("/assets/hero/Vector-1.svg")} alt="" className="hero__icon1" />
       </div>
     </div>
   )

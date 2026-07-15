@@ -5,6 +5,7 @@ import "./Product.scss";
 import { addToCart } from "../../utils/cartStorage";
 import { useCart } from "../../hooks/useCart";
 import { useState, useRef, useEffect } from "react";
+import { getImageUrl } from "../../utils/getImageUrl";
 const Product = ({ product }) => {
 
   const { addToCart } = useCart();
@@ -90,7 +91,7 @@ const Product = ({ product }) => {
               setCurrentImage(product.colors[currentColor].image[0])
             }
           >
-            <img src={product.colors[currentColor].image[0]} alt="" />
+            <img src={getImageUrl(product.colors[currentColor].image[0])} alt="" />
           </div>
           <div
             className="product__img-list-item"
@@ -98,7 +99,7 @@ const Product = ({ product }) => {
               setCurrentImage(product.colors[currentColor].image[1])
             }
           >
-            <img src={product.colors[currentColor].image[1]} alt="" />
+            <img src={getImageUrl(product.colors[currentColor].image[1])} alt="" />
           </div>
           <div
             className="product__img-list-item"
@@ -106,11 +107,11 @@ const Product = ({ product }) => {
               setCurrentImage(product.colors[currentColor].image[2])
             }
           >
-            <img src={product.colors[currentColor].image[2]} alt="" />
+            <img src={getImageUrl(product.colors[currentColor].image[2])} alt="" />
           </div>
         </div>
         <div className="product__current-image">
-          <img src={currentImage} alt="Photo" />
+          <img src={getImageUrl(currentImage)} alt="Photo" />
         </div>
       </div>
       <div className="product__text-block">
