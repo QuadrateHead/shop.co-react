@@ -81,6 +81,17 @@ const Product = ({ product }) => {
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
   }, []);
+
+  const formatSizeLabel = (size) => {
+    return size
+      .split("-")
+      .map((part) =>
+        /^\d*x+$/i.test(part)
+          ? part.toUpperCase()
+          : part.charAt(0).toUpperCase() + part.slice(1),
+      )
+      .join("-");
+  };
   return (
     <div className="product">
       <div className="product__images">
@@ -203,7 +214,7 @@ const Product = ({ product }) => {
                 }
                 onClick={() => setCurrentSize(size)}
               >
-                <p className="product__sizes-name p-16">{size}</p>
+                <p className="product__sizes-name p-16">{formatSizeLabel(size)}</p>
               </button>
             ))}
           </div>

@@ -3,10 +3,22 @@ import { useCart } from "../../hooks/useCart";
 import PagePath from "../../components/PagePath/PagePath"
 import OrderSummary from "../../components/OrderSummary/OrderSummary";
 import { getImageUrl } from "../../utils/getImageUrl";
+import colorNamer from "color-namer";
 import "./CartPage.scss";
 
 const CartPage = () => {
   const { cart, removeFromCart, updateCartItemAmount, totalPrice } = useCart();
+
+  const formatSizeLabel = (size) => {
+    return size
+      .split("-")
+      .map((part) =>
+        /^\d*x+$/i.test(part)
+          ? part.toUpperCase()
+          : part.charAt(0).toUpperCase() + part.slice(1),
+      )
+      .join("-");
+  };
 
   if (cart.length === 0) {
     return (
@@ -42,8 +54,8 @@ const CartPage = () => {
                     </button>
                   </div>
                   <div className="cart-item__details">
-                    <p className="cart-item__meta">Size: <b>{item.size}</b></p>
-                    <p className="cart-item__meta">Color: <b>{item.color.color}</b></p>
+                    <p className="cart-item__meta">Size: <b>{formatSizeLabel(item.size)}</b></p>
+                    <p className="cart-item__meta">Color: <b>{colorNamer(item.color.color).basic[0].name}</b></p>
                   </div>
                   <div className="cart-item__price">
                     <p className="cart-item__line-total">

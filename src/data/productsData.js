@@ -213,7 +213,7 @@ export const newArrivalsData = [
         ],
       }
     ],
-    sizes: ["small", "medium", "large", "x-large"]
+    sizes: ["xx-small", "small", "medium", "large", "x-large", "xx-large"]
   },
   {
     id: 5,

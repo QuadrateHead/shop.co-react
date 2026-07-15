@@ -116,6 +116,7 @@
     font-family: var(--font-family);
     font-weight: 400;
     font-size: toRem(14);
+    text-transform: capitalize;
     color: #000;
     & b{
       font-weight: 400;
