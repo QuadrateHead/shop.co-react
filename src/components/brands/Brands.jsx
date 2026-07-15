@@ -5,19 +5,19 @@ const Brands = () => {
     <div className={styles.block}>
       <ul className={styles.list}>
          <li className={styles.item}>
-            <img src="../../../src/assets/brands/Group.png" alt="" className={styles.icon} />
+            <img src="../../../assets/assets/brands/Group.png" alt="" className={styles.icon} />
          </li>
          <li className={styles.item}>
-            <img src="../../../src/assets/brands/zara-logo-1 1.png" alt="" className={styles.icon} />
+            <img src="../../../assets/assets/brands/zara-logo-1 1.png" alt="" className={styles.icon} />
          </li>
          <li className={styles.item}>
-            <img src="../../../src/assets/brands/gucci-logo-1 1.png" alt="" className={styles.icon} />
+            <img src="../../../assets/assets/brands/gucci-logo-1 1.png" alt="" className={styles.icon} />
          </li>
          <li className={styles.item}>
-            <img src="../../../src/assets/brands/prada-logo-1 1.png" alt="" className={styles.icon} />
+            <img src="../../../assets/assets/brands/prada-logo-1 1.png" alt="" className={styles.icon} />
          </li>
          <li className={styles.item}>
-            <img src="../../../src/assets/brands/Group-1.png" alt="" className={styles.icon} />
+            <img src="../../../assets/assets/brands/Group-1.png" alt="" className={styles.icon} />
          </li>
       </ul>
     </div>

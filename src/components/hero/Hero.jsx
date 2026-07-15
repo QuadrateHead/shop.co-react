@@ -33,9 +33,9 @@ const Hero = () => {
          </div>
       </div>
       <div className="hero__bg">
-         <img src = "/src/assets/hero/heroImg.jpg" alt='Photo' className="hero__sideimg" />
-         <img src = "/src/assets/hero/Vector.svg" alt="" className="hero__icon" />
-         <img src = "/src/assets/hero/Vector-1.svg" alt="" className="hero__icon1" />
+         <img src = "/assets/assets/hero/heroImg.jpg" alt='Photo' className="hero__sideimg" />
+         <img src = "/assets/assets/hero/Vector.svg" alt="" className="hero__icon" />
+         <img src = "/assets/assets/hero/Vector-1.svg" alt="" className="hero__icon1" />
       </div>
     </div>
   )

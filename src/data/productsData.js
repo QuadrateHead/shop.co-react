@@ -12,41 +12,41 @@ export const newArrivalsData = [
       {
         color: "#000000",
         image: [
-          "/src/assets/newArrivalsImage/Frame 32.png",
-          "/src/assets/newArrivalsImage/Frame 32.png",
-          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
         ],
       },
       {
         color: "#ffffff",
         image: [
-          "/src/assets/newArrivalsImage/Frame 32.png",
-          "/src/assets/newArrivalsImage/Frame 32.png",
-          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
         ],
       },
       {
         color: "#00c12b",
         image: [
-          "/src/assets/newArrivalsImage/Frame 32.png",
-          "/src/assets/newArrivalsImage/Frame 32.png",
-          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
         ],
       },
       {
         color: "#f50606",
         image: [
-          "/src/assets/newArrivalsImage/Frame 32.png",
-          "/src/assets/newArrivalsImage/Frame 32.png",
-          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
         ],
       },
       {
         color: "#f5dd06",
         image: [
-          "/src/assets/newArrivalsImage/Frame 32.png",
-          "/src/assets/newArrivalsImage/Frame 32.png",
-          "/src/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
+          "/assets/newArrivalsImage/Frame 32.png",
         ],
       }
     ],
@@ -67,41 +67,41 @@ export const newArrivalsData = [
       {
         color: "#1e3a8a", // Dark Blue
         image: [
-          "/src/assets/newArrivalsImage/Frame 33.png",
-          "/src/assets/newArrivalsImage/Frame 33.png",
-          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
         ],
       },
       {
         color: "#000000", // Black
         image: [
-          "/src/assets/newArrivalsImage/Frame 33.png",
-          "/src/assets/newArrivalsImage/Frame 33.png",
-          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
         ],
       },
       {
         color: "#f57906",
         image: [
-          "/src/assets/newArrivalsImage/Frame 33.png",
-          "/src/assets/newArrivalsImage/Frame 33.png",
-          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
         ],
       },
       {
         color: "#06caf5",
         image: [
-          "/src/assets/newArrivalsImage/Frame 33.png",
-          "/src/assets/newArrivalsImage/Frame 33.png",
-          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
         ],
       },
       {
         color: "#f506a4",
         image: [
-          "/src/assets/newArrivalsImage/Frame 33.png",
-          "/src/assets/newArrivalsImage/Frame 33.png",
-          "/src/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
+          "/assets/newArrivalsImage/Frame 33.png",
         ],
       }
     ],
@@ -120,41 +120,41 @@ export const newArrivalsData = [
       {
         color: "#7f1d1d", // Red Check
         image: [
-          "/src/assets/newArrivalsImage/Frame 34.png",
-          "/src/assets/newArrivalsImage/Frame 34.png",
-          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
         ],
       },
       {
         color: "#1e3a8a", // Blue Check
         image: [
-          "/src/assets/newArrivalsImage/Frame 34.png",
-          "/src/assets/newArrivalsImage/Frame 34.png",
-          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
         ],
       },
       {
         color: "#f5dd06",
         image: [
-          "/src/assets/newArrivalsImage/Frame 34.png",
-          "/src/assets/newArrivalsImage/Frame 34.png",
-          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
         ],
       },
       {
         color: "#7d06f5",
         image: [
-          "/src/assets/newArrivalsImage/Frame 34.png",
-          "/src/assets/newArrivalsImage/Frame 34.png",
-          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
         ],
       },
       {
         color: "#ffffff",
         image: [
-          "/src/assets/newArrivalsImage/Frame 34.png",
-          "/src/assets/newArrivalsImage/Frame 34.png",
-          "/src/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
+          "/assets/newArrivalsImage/Frame 34.png",
         ],
       }
     ],
@@ -175,41 +175,41 @@ export const newArrivalsData = [
       {
         color: "#ea580c", // Orange
         image: [
-          "/src/assets/newArrivalsImage/Frame 38.png",
-          "/src/assets/newArrivalsImage/Frame 38.png",
-          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
         ],
       },
       {
         color: "#ffffff", // White
         image: [
-          "/src/assets/newArrivalsImage/Frame 38.png",
-          "/src/assets/newArrivalsImage/Frame 38.png",
-          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
         ],
       },
       {
         color: "#00c12b",
         image: [
-          "/src/assets/newArrivalsImage/Frame 38.png",
-          "/src/assets/newArrivalsImage/Frame 38.png",
-          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
         ],
       },
       {
         color: "#063af5",
         image: [
-          "/src/assets/newArrivalsImage/Frame 38.png",
-          "/src/assets/newArrivalsImage/Frame 38.png",
-          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
         ],
       },
       {
         color: "#f506a4",
         image: [
-          "/src/assets/newArrivalsImage/Frame 38.png",
-          "/src/assets/newArrivalsImage/Frame 38.png",
-          "/src/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
+          "/assets/newArrivalsImage/Frame 38.png",
         ],
       }
     ],
@@ -230,49 +230,49 @@ export const newArrivalsData = [
       {
         color: "#4f4631",
         image: [
-          "/src/assets/newArrivalsImage/id5/image 2.png",
-          "/src/assets/newArrivalsImage/id5/image 5.png",
-          "/src/assets/newArrivalsImage/id5/image 6.png",
+          "/assets/newArrivalsImage/id5/image 2.png",
+          "/assets/newArrivalsImage/id5/image 5.png",
+          "/assets/newArrivalsImage/id5/image 6.png",
         ],
       },
       {
         color: "#314f4a",
         image: [
-          "/src/assets/newArrivalsImage/id5/image 5.png",
-          "/src/assets/newArrivalsImage/id5/image 6.png",
-          "/src/assets/newArrivalsImage/id5/image 2.png",
+          "/assets/newArrivalsImage/id5/image 5.png",
+          "/assets/newArrivalsImage/id5/image 6.png",
+          "/assets/newArrivalsImage/id5/image 2.png",
         ],
       },
       {
         color: "#31344f",
         image: [
-          "/src/assets/newArrivalsImage/id5/image 5.png",
-          "/src/assets/newArrivalsImage/id5/image 2.png",
-          "/src/assets/newArrivalsImage/id5/image 6.png",
+          "/assets/newArrivalsImage/id5/image 5.png",
+          "/assets/newArrivalsImage/id5/image 2.png",
+          "/assets/newArrivalsImage/id5/image 6.png",
         ],
       },
       {
         color: "#f50606",
         image: [
-          "/src/assets/newArrivalsImage/id5/image 2.png",
-          "/src/assets/newArrivalsImage/id5/image 5.png",
-          "/src/assets/newArrivalsImage/id5/image 6.png",
+          "/assets/newArrivalsImage/id5/image 2.png",
+          "/assets/newArrivalsImage/id5/image 5.png",
+          "/assets/newArrivalsImage/id5/image 6.png",
         ],
       },
       {
         color: "#06caf5",
         image: [
-          "/src/assets/newArrivalsImage/id5/image 2.png",
-          "/src/assets/newArrivalsImage/id5/image 5.png",
-          "/src/assets/newArrivalsImage/id5/image 6.png",
+          "/assets/newArrivalsImage/id5/image 2.png",
+          "/assets/newArrivalsImage/id5/image 5.png",
+          "/assets/newArrivalsImage/id5/image 6.png",
         ],
       },
       {
         color: "#f5dd06",
         image: [
-          "/src/assets/newArrivalsImage/id5/image 2.png",
-          "/src/assets/newArrivalsImage/id5/image 5.png",
-          "/src/assets/newArrivalsImage/id5/image 6.png",
+          "/assets/newArrivalsImage/id5/image 2.png",
+          "/assets/newArrivalsImage/id5/image 5.png",
+          "/assets/newArrivalsImage/id5/image 6.png",
         ],
       }
     ],
@@ -296,41 +296,41 @@ export const topSellingData = [
       {
         color: "#166534", // Green stripe
         image: [
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
         ],
       },
       {
         color: "#1e3a8a", // Blue stripe
         image: [
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
         ],
       },
       {
         color: "#f57906",
         image: [
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
         ],
       },
       {
         color: "#f506a4",
         image: [
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
         ],
       },
       {
         color: "#ffffff",
         image: [
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
         ],
       }
     ],
@@ -349,41 +349,41 @@ export const topSellingData = [
       {
         color: "#ea580c", // Orange
         image: [
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
         ],
       },
       {
         color: "#000000", // Black
         image: [
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
         ],
       },
       {
         color: "#00c12b",
         image: [
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
         ],
       },
       {
         color: "#06caf5",
         image: [
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
         ],
       },
       {
         color: "#7d06f5",
         image: [
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
         ],
       }
     ],
@@ -404,41 +404,41 @@ export const topSellingData = [
       {
         color: "#3b82f6", // Light Denim
         image: [
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
         ],
       },
       {
         color: "#1e3a8a", // Dark Denim
         image: [
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
         ],
       },
       {
         color: "#f5dd06",
         image: [
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
         ],
       },
       {
         color: "#f50606",
         image: [
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
         ],
       },
       {
         color: "#000000",
         image: [
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
         ],
       }
     ],
@@ -457,41 +457,41 @@ export const topSellingData = [
       {
         color: "#1f2937", // Faded Black/Grey
         image: [
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
         ],
       },
       {
         color: "#3b82f6", // Faded Blue
         image: [
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
         ],
       },
       {
         color: "#00c12b",
         image: [
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
         ],
       },
       {
         color: "#f57906",
         image: [
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
         ],
       },
       {
         color: "#f506a4",
         image: [
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
         ],
       }
     ],
@@ -515,33 +515,33 @@ export const alsoLikeData = [
       {
         color: "#0284c7", // Teal/Blue
         image: [
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
         ],
       },
       {
         color: "#f50606",
         image: [
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
         ],
       },
       {
         color: "#f5dd06",
         image: [
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
         ],
       },
       {
         color: "#000000",
         image: [
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
-          "/src/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
+          "/assets/topSellingImage/Frame 32.png",
         ],
       }
     ],
@@ -560,33 +560,33 @@ export const alsoLikeData = [
       {
         color: "#ffffff", // White base
         image: [
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
         ],
       },
       {
         color: "#00c12b",
         image: [
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
         ],
       },
       {
         color: "#7d06f5",
         image: [
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
         ],
       },
       {
         color: "#f57906",
         image: [
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
-          "/src/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
+          "/assets/topSellingImage/Frame 33.png",
         ],
       }
     ],
@@ -605,33 +605,33 @@ export const alsoLikeData = [
       {
         color: "#9f1239", // Maroon/Red
         image: [
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
         ],
       },
       {
         color: "#06caf5",
         image: [
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
         ],
       },
       {
         color: "#063af5",
         image: [
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
         ],
       },
       {
         color: "#ffffff",
         image: [
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
-          "/src/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
+          "/assets/topSellingImage/Frame 34.png",
         ],
       }
     ],
@@ -652,33 +652,33 @@ export const alsoLikeData = [
       {
         color: "#000000", // Black/White
         image: [
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
         ],
       },
       {
         color: "#f5dd06",
         image: [
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
         ],
       },
       {
         color: "#f506a4",
         image: [
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
         ],
       },
       {
         color: "#00c12b",
         image: [
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
-          "/src/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
+          "/assets/topSellingImage/Frame 38.png",
         ],
       }
     ],
@@ -700,33 +700,33 @@ export const casualData = [
       {
         color: "#ffffff",
         image: [
-          "/src/assets/casualImage/Frame 33.png",
-          "/src/assets/casualImage/Frame 33.png",
-          "/src/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
         ],
       },
       {
         color: "#f50606",
         image: [
-          "/src/assets/casualImage/Frame 33.png",
-          "/src/assets/casualImage/Frame 33.png",
-          "/src/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
         ],
       },
       {
         color: "#063af5",
         image: [
-          "/src/assets/casualImage/Frame 33.png",
-          "/src/assets/casualImage/Frame 33.png",
-          "/src/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
         ],
       },
       {
         color: "#f57906",
         image: [
-          "/src/assets/casualImage/Frame 33.png",
-          "/src/assets/casualImage/Frame 33.png",
-          "/src/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
+          "/assets/casualImage/Frame 33.png",
         ],
       }
     ],
@@ -745,33 +745,33 @@ export const casualData = [
       {
         color: "#9f1239",
         image: [
-          "/src/assets/casualImage/Frame 34.png",
-          "/src/assets/casualImage/Frame 34.png",
-          "/src/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
         ],
       },
       {
         color: "#00c12b",
         image: [
-          "/src/assets/casualImage/Frame 34.png",
-          "/src/assets/casualImage/Frame 34.png",
-          "/src/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
         ],
       },
       {
         color: "#06caf5",
         image: [
-          "/src/assets/casualImage/Frame 34.png",
-          "/src/assets/casualImage/Frame 34.png",
-          "/src/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
         ],
       },
       {
         color: "#000000",
         image: [
-          "/src/assets/casualImage/Frame 34.png",
-          "/src/assets/casualImage/Frame 34.png",
-          "/src/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
+          "/assets/casualImage/Frame 34.png",
         ],
       }
     ],
@@ -792,33 +792,33 @@ export const casualData = [
       {
         color: "#000000",
         image: [
-          "/src/assets/casualImage/Frame 38.png",
-          "/src/assets/casualImage/Frame 38.png",
-          "/src/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
         ],
       },
       {
         color: "#f5dd06",
         image: [
-          "/src/assets/casualImage/Frame 38.png",
-          "/src/assets/casualImage/Frame 38.png",
-          "/src/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
         ],
       },
       {
         color: "#7d06f5",
         image: [
-          "/src/assets/casualImage/Frame 38.png",
-          "/src/assets/casualImage/Frame 38.png",
-          "/src/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
         ],
       },
       {
         color: "#ffffff",
         image: [
-          "/src/assets/casualImage/Frame 38.png",
-          "/src/assets/casualImage/Frame 38.png",
-          "/src/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
+          "/assets/casualImage/Frame 38.png",
         ],
       }
     ],
@@ -839,33 +839,33 @@ export const casualData = [
       {
         color: "#1e3a8a",
         image: [
-          "/src/assets/casualImage/Frame 71.png",
-          "/src/assets/casualImage/Frame 71.png",
-          "/src/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
         ],
       },
       {
         color: "#f57906",
         image: [
-          "/src/assets/casualImage/Frame 71.png",
-          "/src/assets/casualImage/Frame 71.png",
-          "/src/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
         ],
       },
       {
         color: "#f506a4",
         image: [
-          "/src/assets/casualImage/Frame 71.png",
-          "/src/assets/casualImage/Frame 71.png",
-          "/src/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
         ],
       },
       {
         color: "#f50606",
         image: [
-          "/src/assets/casualImage/Frame 71.png",
-          "/src/assets/casualImage/Frame 71.png",
-          "/src/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
+          "/assets/casualImage/Frame 71.png",
         ],
       }
     ],
@@ -884,33 +884,33 @@ export const casualData = [
       {
         color: "#7f1d1d",
         image: [
-          "/src/assets/casualImage/Frame 72.png",
-          "/src/assets/casualImage/Frame 72.png",
-          "/src/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
         ],
       },
       {
         color: "#063af5",
         image: [
-          "/src/assets/casualImage/Frame 72.png",
-          "/src/assets/casualImage/Frame 72.png",
-          "/src/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
         ],
       },
       {
         color: "#f5dd06",
         image: [
-          "/src/assets/casualImage/Frame 72.png",
-          "/src/assets/casualImage/Frame 72.png",
-          "/src/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
         ],
       },
       {
         color: "#06caf5",
         image: [
-          "/src/assets/casualImage/Frame 72.png",
-          "/src/assets/casualImage/Frame 72.png",
-          "/src/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
+          "/assets/casualImage/Frame 72.png",
         ],
       }
     ],
@@ -931,33 +931,33 @@ export const casualData = [
       {
         color: "#ea580c",
         image: [
-          "/src/assets/casualImage/Frame 73.png",
-          "/src/assets/casualImage/Frame 73.png",
-          "/src/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
         ],
       },
       {
         color: "#00c12b",
         image: [
-          "/src/assets/casualImage/Frame 73.png",
-          "/src/assets/casualImage/Frame 73.png",
-          "/src/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
         ],
       },
       {
         color: "#7d06f5",
         image: [
-          "/src/assets/casualImage/Frame 73.png",
-          "/src/assets/casualImage/Frame 73.png",
-          "/src/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
         ],
       },
       {
         color: "#000000",
         image: [
-          "/src/assets/casualImage/Frame 73.png",
-          "/src/assets/casualImage/Frame 73.png",
-          "/src/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
+          "/assets/casualImage/Frame 73.png",
         ],
       }
     ],
@@ -978,33 +978,33 @@ export const casualData = [
       {
         color: "#166534",
         image: [
-          "/src/assets/casualImage/Frame 32.png",
-          "/src/assets/casualImage/Frame 32.png",
-          "/src/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
         ],
       },
       {
         color: "#f506a4",
         image: [
-          "/src/assets/casualImage/Frame 32.png",
-          "/src/assets/casualImage/Frame 32.png",
-          "/src/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
         ],
       },
       {
         color: "#ffffff",
         image: [
-          "/src/assets/casualImage/Frame 32.png",
-          "/src/assets/casualImage/Frame 32.png",
-          "/src/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
         ],
       },
       {
         color: "#f50606",
         image: [
-          "/src/assets/casualImage/Frame 32.png",
-          "/src/assets/casualImage/Frame 32.png",
-          "/src/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
+          "/assets/casualImage/Frame 32.png",
         ],
       }
     ],
@@ -1023,33 +1023,33 @@ export const casualData = [
       {
         color: "#ea580c",
         image: [
-          "/src/assets/casualImage/Frame 70.png",
-          "/src/assets/casualImage/Frame 70.png",
-          "/src/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
         ],
       },
       {
         color: "#06caf5",
         image: [
-          "/src/assets/casualImage/Frame 70.png",
-          "/src/assets/casualImage/Frame 70.png",
-          "/src/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
         ],
       },
       {
         color: "#063af5",
         image: [
-          "/src/assets/casualImage/Frame 70.png",
-          "/src/assets/casualImage/Frame 70.png",
-          "/src/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
         ],
       },
       {
         color: "#f5dd06",
         image: [
-          "/src/assets/casualImage/Frame 70.png",
-          "/src/assets/casualImage/Frame 70.png",
-          "/src/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
+          "/assets/casualImage/Frame 70.png",
         ],
       }
     ],
@@ -1068,33 +1068,33 @@ export const casualData = [
       {
         color: "#3b82f6",
         image: [
-          "/src/assets/casualImage/Frame 71-1.png",
-          "/src/assets/casualImage/Frame 71-1.png",
-          "/src/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
         ],
       },
       {
         color: "#00c12b",
         image: [
-          "/src/assets/casualImage/Frame 71-1.png",
-          "/src/assets/casualImage/Frame 71-1.png",
-          "/src/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
         ],
       },
       {
         color: "#f57906",
         image: [
-          "/src/assets/casualImage/Frame 71-1.png",
-          "/src/assets/casualImage/Frame 71-1.png",
-          "/src/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
         ],
       },
       {
         color: "#000000",
         image: [
-          "/src/assets/casualImage/Frame 71-1.png",
-          "/src/assets/casualImage/Frame 71-1.png",
-          "/src/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
+          "/assets/casualImage/Frame 71-1.png",
         ],
       }
     ],
