@@ -6,6 +6,8 @@ import { product5Review } from '../../data/productReviewsData';
 import ProductList from "../../components/ProductList/ProductList";
 import Product from "../../components/Product/Product";
 import ProductReviews from "../../components/ProductReviews/ProductReviews";
+import ProductDetails from "../../components/ProductDetails/ProductDetails";
+import FAQsSection from "../../components/FAQsSection/FAQsSection";
 import "./ProductPage.scss";
 const ProductPage = () => {
   const { state } = useLocation();
@@ -14,8 +16,8 @@ const ProductPage = () => {
   const product =
     state?.product ?? allProducts.find((prod) => prod.id === Number(id));
 
-  {
-    !product && <p>Product not found</p>;
+  if (!product) {
+    return <p>Product not found</p>;
   }
   
 
@@ -102,7 +104,7 @@ const ProductPage = () => {
           ))}
         </div>
         <div className="tab-content">
-          {activeTab === "product-details" && <ProductDetails />}
+          {activeTab === "product-details" && <ProductDetails product={product}/>}
           {activeTab === "reviews" && <ProductReviews reviews={product5Review}/>}
           {activeTab === "faqs" && <FAQsSection />}
         </div>
