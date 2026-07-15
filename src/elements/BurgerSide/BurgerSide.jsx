@@ -10,16 +10,16 @@ const BurgerSide = ( {sideBarOpened, setSideBarOpened, onBurgerClick} ) => {
          </svg>      
       </button>
       <ul className={styles.list}>
-         <Link to="/shop" className={styles.link}>
+         <Link to="/shop" onClick={onBurgerClick} className={styles.link}>
             Shop
          </Link>
-         <a href="#" className={styles.link}>
+         <a href="#" onClick={onBurgerClick} className={styles.link}>
             On Sale
          </a>
-         <a href="#" className={styles.link}>
+         <a href="#" onClick={onBurgerClick} className={styles.link}>
             New arrivals
          </a>
-         <a href="#" className={styles.link}>
+         <a href="#" onClick={onBurgerClick} className={styles.link}>
             Brands
          </a>
       </ul>
