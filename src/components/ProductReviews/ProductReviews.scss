@@ -148,7 +148,13 @@
 
          margin-inline: auto;
          margin-top: toRem(51.42);
-         
+         transition: all 0.1s linear 0s;
+         &:hover{
+            color: #fff;
+            background-color: #000;
+            transform: scale(1.03);
+            transition: all 0.1s linear 0s;
+         }
       }
       @media(max-width: 1024px){
          &__grid {

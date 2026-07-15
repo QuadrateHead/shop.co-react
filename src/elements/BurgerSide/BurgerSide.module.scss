@@ -1,0 +1,31 @@
+@use "/src/styles/scss/tools/function" as *;
+@use "/src/styles/scss/tools/mixins" as *;
+@use "/src/styles/scss/base/typography" as *;
+.block{
+   position: fixed;
+   transform: translateX(-100%);
+   z-index: 1000;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   height: 100vh;
+   height: 100dvh;
+
+   @include coloumn(20);
+   padding: toRem(40);
+   background-color: black;
+   transition: transform 0.2s linear 0s;
+   &.active{
+      transform: translateX(0);
+      transition: transform 0.2s linear 0s;
+   }
+}
+.list{
+   @include coloumn(20);
+}
+.link{
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: toRem(16);
+   color: #fff;
+}

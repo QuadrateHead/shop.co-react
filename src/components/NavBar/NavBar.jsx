@@ -12,7 +12,7 @@ const NavBar = () => {
   }
   return (
     <>
-      {sideBarOpened && <BurgerSide />}
+      <BurgerSide sideBarOpened = {sideBarOpened} setSideBarOpened={setSideBarOpened} onBurgerClick={onBurgerClick}/>
       <div className={styles.navbar}>
         <div className={styles.leftside}>
           <button onClick={onBurgerClick} className={styles.burger}>

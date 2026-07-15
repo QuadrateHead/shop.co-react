@@ -11,7 +11,7 @@ const ProductList = ({head, data}) => {
           item.id % 2 == 0 ? <ProductCard key={item.id} product={item} hover = "right"/> : <ProductCard key={item.id} product={item} hover = "left" />
         ))}
       </div>
-      <Link className={styles.btn} to = "/">View All</Link>
+      <Link className={styles.btn} to = "/shop">View All</Link>
     </div>
   )
 }
