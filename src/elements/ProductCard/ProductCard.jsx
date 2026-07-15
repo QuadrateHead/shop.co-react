@@ -49,7 +49,6 @@ const ProductCard = ({ product, hover }) => {
       to={`/product/${product.id}`}
       state={{ product }}
       className={styles.card}
-      reloadDocument
     >
       <div className={styles.imageContainer}>
         <img
